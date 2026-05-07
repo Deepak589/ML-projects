@@ -4,6 +4,7 @@ import math
 from pathlib import Path
 
 import joblib
+import numpy as np
 import pandas as pd
 import streamlit as st
 
@@ -28,25 +29,26 @@ WEATHER_MAP = {
     "Windy": "Windy",
 }
 
+# stripped — notebook now strips whitespace from CSV before encoding
 TRAFFIC_MAP = {
-    "High": "High ",
-    "Jam": "Jam ",
-    "Low": "Low ",
-    "Medium": "Medium ",
+    "High": "High",
+    "Jam": "Jam",
+    "Low": "Low",
+    "Medium": "Medium",
 }
 
 VEHICLE_MAP = {
-    "Bicycle": "bicycle ",
-    "Motorcycle": "motorcycle ",
-    "Scooter": "scooter ",
+    "Bicycle": "bicycle",
+    "Motorcycle": "motorcycle",
+    "Scooter": "scooter",
     "Van": "van",
 }
 
 AREA_MAP = {
-    "Metropolitian": "Metropolitian ",
+    "Metropolitian": "Metropolitian",
     "Other": "Other",
-    "Semi-Urban": "Semi-Urban ",
-    "Urban": "Urban ",
+    "Semi-Urban": "Semi-Urban",
+    "Urban": "Urban",
 }
 
 CATEGORY_MAP = {
@@ -119,37 +121,38 @@ SAMPLE_ORDERS = {
 
 @st.cache_resource
 def load_artifacts():
-    missing = [
-        name
-        for name in ("regressor.pkl", "classifier.pkl", "feature_info.json")
-        if not (MODEL_DIR / name).exists()
-    ]
+    required = ("regressor.pkl", "classifier.pkl", "feature_info.json",
+                "store_kmeans.pkl", "drop_kmeans.pkl")
+    missing = [name for name in required if not (MODEL_DIR / name).exists()]
     if missing:
-        return None, None, None, missing
+        return None, None, None, None, None, missing
 
     regressor = joblib.load(MODEL_DIR / "regressor.pkl")
     classifier = joblib.load(MODEL_DIR / "classifier.pkl")
+    store_kmeans = joblib.load(MODEL_DIR / "store_kmeans.pkl")
+    drop_kmeans = joblib.load(MODEL_DIR / "drop_kmeans.pkl")
     feature_info = json.loads(FEATURE_INFO_PATH.read_text(encoding="utf-8"))
-    return regressor, classifier, feature_info, []
+    return regressor, classifier, store_kmeans, drop_kmeans, feature_info, []
 
 
 def haversine_km(lat1, lon1, lat2, lon2):
     radius_km = 6371.0
-    lat1_rad = math.radians(lat1)
-    lon1_rad = math.radians(lon1)
-    lat2_rad = math.radians(lat2)
-    lon2_rad = math.radians(lon2)
-    dlat = lat2_rad - lat1_rad
-    dlon = lon2_rad - lon1_rad
+    lat1_r, lon1_r, lat2_r, lon2_r = map(math.radians, [lat1, lon1, lat2, lon2])
+    dlat = lat2_r - lat1_r
+    dlon = lon2_r - lon1_r
     a = (
         math.sin(dlat / 2) ** 2
-        + math.cos(lat1_rad) * math.cos(lat2_rad) * math.sin(dlon / 2) ** 2
+        + math.cos(lat1_r) * math.cos(lat2_r) * math.sin(dlon / 2) ** 2
     )
     return radius_km * 2 * math.asin(math.sqrt(a))
 
 
 def build_feature_frame(
     feature_names,
+    traffic_ordinal_map,
+    store_kmeans,
+    drop_kmeans,
+    log_transform,
     agent_age,
     agent_rating,
     distance_km,
@@ -161,28 +164,52 @@ def build_feature_frame(
     vehicle,
     area,
     category,
+    store_lat,
+    store_lon,
+    drop_lat,
+    drop_lon,
 ):
-    raw = pd.DataFrame(
-        [
-            {
-                "agent_age": int(agent_age),
-                "agent_rating": float(agent_rating),
-                "distance_km": float(distance_km),
-                "order_hour": float(order_time.hour),
-                "is_weekend": int(order_date.weekday() >= 5),
-                "prep_time": float(prep_time),
-                "weather": WEATHER_MAP[weather],
-                "traffic": TRAFFIC_MAP[traffic],
-                "vehicle": VEHICLE_MAP[vehicle],
-                "area": AREA_MAP[area],
-                "category": CATEGORY_MAP[category],
-            }
-        ]
-    )
+    hour = order_time.hour
+    traffic_val = TRAFFIC_MAP[traffic]
+    traffic_ord = traffic_ordinal_map.get(traffic_val, 2)
+
+    store_cluster = int(store_kmeans.predict([[store_lat, store_lon]])[0])
+    drop_cluster = int(drop_kmeans.predict([[drop_lat, drop_lon]])[0])
+
+    manhattan_km = (abs(drop_lat - store_lat) + abs(drop_lon - store_lon)) * 111.0
+    bearing = math.degrees(math.atan2(drop_lat - store_lat, drop_lon - store_lon))
+
+    rating_bucket = 0 if agent_rating < 4.0 else (1 if agent_rating < 4.5 else 2)
+
+    raw = pd.DataFrame([{
+        "agent_age": int(agent_age),
+        "agent_rating": float(agent_rating),
+        "distance_km": float(distance_km),
+        "manhattan_km": float(manhattan_km),
+        "bearing": float(bearing),
+        "is_weekend": int(order_date.weekday() >= 5),
+        "month": int(order_date.month),
+        "week_of_year": int(order_date.isocalendar()[1]),
+        "hour_sin": math.sin(2 * math.pi * hour / 24),
+        "hour_cos": math.cos(2 * math.pi * hour / 24),
+        "is_rush": int(hour in [8, 9, 10, 17, 18, 19, 20]),
+        "prep_time": float(prep_time),
+        "speed_proxy": float(distance_km) / max(float(prep_time), 1),
+        "dist_x_traffic": float(distance_km) * traffic_ord,
+        "agent_rating_bucket": float(rating_bucket),
+        "store_cluster": store_cluster,
+        "drop_cluster": drop_cluster,
+        "weather": WEATHER_MAP[weather],
+        "traffic": traffic_val,
+        "vehicle": VEHICLE_MAP[vehicle],
+        "area": AREA_MAP[area],
+        "category": CATEGORY_MAP[category],
+        "order_day": order_date.strftime("%A"),
+    }])
 
     encoded = pd.get_dummies(
         raw,
-        columns=["weather", "traffic", "vehicle", "area", "category"],
+        columns=["weather", "traffic", "vehicle", "area", "category", "order_day"],
         drop_first=True,
     )
     encoded = encoded.reindex(columns=feature_names, fill_value=0)
@@ -375,7 +402,7 @@ def render_model_context(feature_info):
     clf = feature_info["classification"]["metrics"]
     col1, col2, col3 = st.columns(3)
     with col1:
-        metric_card("Regression R2", f"{reg['r2']:.2f}", f"MAE {reg['mae']:.2f} min")
+        metric_card("Regression R²", f"{reg['r2']:.2f}", f"MAE {reg['mae']:.2f} min")
     with col2:
         metric_card("Risk ROC-AUC", f"{clf['roc_auc']:.2f}", f"F1 {clf['f1_weighted']:.2f}")
     with col3:
@@ -385,7 +412,7 @@ def render_model_context(feature_info):
 def render_inputs():
     st.markdown('<div class="section-title">Order Details</div>', unsafe_allow_html=True)
     st.markdown(
-        '<div class="helper">Choose a preset or enter custom values. Distance is calculated from the coordinates and checked against the training cleanup rule.</div>',
+        '<div class="helper">Choose a preset or enter custom values. Distance is calculated from the coordinates.</div>',
         unsafe_allow_html=True,
     )
 
@@ -398,9 +425,7 @@ def render_inputs():
     with col2:
         agent_rating = st.slider("Agent rating", 1.0, 5.0, preset["agent_rating"], 0.1)
     with col3:
-        prep_time = st.slider(
-            "Order processing time (minutes)", 0, 60, preset["prep_time"], 1
-        )
+        prep_time = st.slider("Order processing time (minutes)", 0, 60, preset["prep_time"], 1)
 
     col4, col5 = st.columns(2)
     with col4:
@@ -411,19 +436,11 @@ def render_inputs():
     st.markdown('<div class="section-title">Route</div>', unsafe_allow_html=True)
     route_left, route_right = st.columns(2)
     with route_left:
-        store_lat = st.number_input(
-            "Store latitude", value=preset["store_lat"], format="%.6f", step=0.001
-        )
-        store_lon = st.number_input(
-            "Store longitude", value=preset["store_lon"], format="%.6f", step=0.001
-        )
+        store_lat = st.number_input("Store latitude", value=preset["store_lat"], format="%.6f", step=0.001)
+        store_lon = st.number_input("Store longitude", value=preset["store_lon"], format="%.6f", step=0.001)
     with route_right:
-        drop_lat = st.number_input(
-            "Drop latitude", value=preset["drop_lat"], format="%.6f", step=0.001
-        )
-        drop_lon = st.number_input(
-            "Drop longitude", value=preset["drop_lon"], format="%.6f", step=0.001
-        )
+        drop_lat = st.number_input("Drop latitude", value=preset["drop_lat"], format="%.6f", step=0.001)
+        drop_lon = st.number_input("Drop longitude", value=preset["drop_lon"], format="%.6f", step=0.001)
 
     distance_km = haversine_km(store_lat, store_lon, drop_lat, drop_lon)
     if distance_km > MAX_DISTANCE_KM:
@@ -436,23 +453,13 @@ def render_inputs():
     st.markdown('<div class="section-title">Conditions</div>', unsafe_allow_html=True)
     cond1, cond2, cond3 = st.columns(3)
     with cond1:
-        weather = st.selectbox(
-            "Weather", list(WEATHER_MAP.keys()), index=list(WEATHER_MAP).index(preset["weather"])
-        )
-        traffic = st.selectbox(
-            "Traffic", list(TRAFFIC_MAP.keys()), index=list(TRAFFIC_MAP).index(preset["traffic"])
-        )
+        weather = st.selectbox("Weather", list(WEATHER_MAP.keys()), index=list(WEATHER_MAP).index(preset["weather"]))
+        traffic = st.selectbox("Traffic", list(TRAFFIC_MAP.keys()), index=list(TRAFFIC_MAP).index(preset["traffic"]))
     with cond2:
-        vehicle = st.selectbox(
-            "Vehicle", list(VEHICLE_MAP.keys()), index=list(VEHICLE_MAP).index(preset["vehicle"])
-        )
-        area = st.selectbox(
-            "Area", list(AREA_MAP.keys()), index=list(AREA_MAP).index(preset["area"])
-        )
+        vehicle = st.selectbox("Vehicle", list(VEHICLE_MAP.keys()), index=list(VEHICLE_MAP).index(preset["vehicle"]))
+        area = st.selectbox("Area", list(AREA_MAP.keys()), index=list(AREA_MAP).index(preset["area"]))
     with cond3:
-        category = st.selectbox(
-            "Category", list(CATEGORY_MAP.keys()), index=list(CATEGORY_MAP).index(preset["category"])
-        )
+        category = st.selectbox("Category", list(CATEGORY_MAP.keys()), index=list(CATEGORY_MAP).index(preset["category"]))
 
     return {
         "agent_age": agent_age,
@@ -461,6 +468,10 @@ def render_inputs():
         "order_date": order_date,
         "order_time": order_time,
         "distance_km": distance_km,
+        "store_lat": store_lat,
+        "store_lon": store_lon,
+        "drop_lat": drop_lat,
+        "drop_lon": drop_lon,
         "weather": weather,
         "traffic": traffic,
         "vehicle": vehicle,
@@ -513,13 +524,15 @@ def render_result(pred_minutes, probability, predicted_class, threshold, order_d
 
 def main():
     render_css()
-    regressor, classifier, feature_info, missing = load_artifacts()
+    regressor, classifier, store_kmeans, drop_kmeans, feature_info, missing = load_artifacts()
     if missing:
         st.error(f"Missing required files: {', '.join(missing)}")
         st.stop()
 
     feature_names = feature_info["features"]["names"]
     threshold = feature_info["threshold"]
+    log_transform = feature_info.get("log_transform", False)
+    traffic_ordinal_map = feature_info.get("traffic_ordinal", {"Low": 1, "Medium": 2, "High": 3, "Jam": 4})
 
     st.markdown(
         """
@@ -528,8 +541,8 @@ def main():
             <h1>Delivery Time Predictor</h1>
             <p>
                 Estimate delivery time in minutes and flag orders likely to take longer than the
-                dataset's typical delivery threshold. The app combines a regression ETA model with
-                a separate above-typical risk classifier.
+                dataset's typical delivery threshold. The app combines a LightGBM regression ETA model
+                with a separate above-typical risk classifier.
             </p>
         </div>
         """,
@@ -547,8 +560,16 @@ def main():
         submitted = st.form_submit_button("Run prediction")
 
     if submitted:
-        feature_frame = build_feature_frame(feature_names=feature_names, **inputs)
-        pred_minutes = float(regressor.predict(feature_frame)[0])
+        feature_frame = build_feature_frame(
+            feature_names=feature_names,
+            traffic_ordinal_map=traffic_ordinal_map,
+            store_kmeans=store_kmeans,
+            drop_kmeans=drop_kmeans,
+            log_transform=log_transform,
+            **inputs,
+        )
+        raw_pred = float(regressor.predict(feature_frame)[0])
+        pred_minutes = float(np.expm1(raw_pred)) if log_transform else raw_pred
         probabilities = classifier.predict_proba(feature_frame)[0]
         classes = list(classifier.classes_)
         above_typical_probability = float(probabilities[classes.index(1)])
