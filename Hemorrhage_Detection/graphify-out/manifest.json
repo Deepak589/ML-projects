@@ -1,0 +1,1187 @@
+{
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\.claude\\settings.local.json": {
+    "mtime": 1779566667.361388,
+    "ast_hash": "442a56d3c5ae6cb3727a69ce285fd24a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\legacy\\Main.py": {
+    "mtime": 1648821936.0,
+    "ast_hash": "b2bd10f39109147da2458c4048efa0f9",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\legacy\\yolomodel\\yolomodel.json": {
+    "mtime": 1648815382.0,
+    "ast_hash": "4bbc78deb9a8a29a3bd7848744828148",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\outputs\\metrics.json": {
+    "mtime": 1779566734.654298,
+    "ast_hash": "bf23f90db025e1f33201947a6ff8d003",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\src\\config.py": {
+    "mtime": 1779568577.570758,
+    "ast_hash": "91ff10e70496be5383d4cc80502cb555",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\src\\data.py": {
+    "mtime": 1779568620.970062,
+    "ast_hash": "ef2b9c7e76c11b890355f13748e4243b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\src\\evaluate.py": {
+    "mtime": 1779566619.0645094,
+    "ast_hash": "c05340791670e9830a1463b901c98dd5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\src\\model.py": {
+    "mtime": 1779366380.2573195,
+    "ast_hash": "83807812996fb1a1cbb490d9c4af1d98",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\src\\predict.py": {
+    "mtime": 1779566592.2718947,
+    "ast_hash": "499d06212f3289314022caad0e992312",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\src\\train.py": {
+    "mtime": 1779568613.5547507,
+    "ast_hash": "d34106e924263a09337cd4f99190d9b0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\src\\__init__.py": {
+    "mtime": 1779365536.227035,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\tests\\test_data.py": {
+    "mtime": 1779568638.0415897,
+    "ast_hash": "bc40242f2130d9fb45ef83a571dbbe1e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\tests\\test_model.py": {
+    "mtime": 1779568630.7227652,
+    "ast_hash": "f92c4fd9b9e0721db928c437181bc6f8",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\tests\\test_predict.py": {
+    "mtime": 1779374487.087926,
+    "ast_hash": "c42a0aa9051ba112a85b261f2835e995",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\tests\\__init__.py": {
+    "mtime": 1779365539.2049034,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\README.md": {
+    "mtime": 1779366160.6765113,
+    "ast_hash": "884e3f57c97fcab76d6bf55a9d1ecd3f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\requirements.txt": {
+    "mtime": 1779365533.804952,
+    "ast_hash": "87479fa8baf2316fcad0775a2c952060",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\.claude\\CLAUDE.md": {
+    "mtime": 1779374638.3498962,
+    "ast_hash": "b225f8bba262ad2e426d32d40e11383f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\docs\\superpowers\\plans\\2026-05-21-hemorrhage-detection-modernization.md": {
+    "mtime": 1779365223.6018505,
+    "ast_hash": "0d45df38b9930fb7ec2ab52918b3d015",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\docs\\superpowers\\specs\\2026-05-21-hemorrhage-detection-modernization-design.md": {
+    "mtime": 1779362906.344771,
+    "ast_hash": "0bbd9934ee75e16148c37060cf582b7c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\legacy\\Project details.txt": {
+    "mtime": 1650875926.0,
+    "ast_hash": "3a1ca8e8f674154e94b96a377b73339e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\legacy\\README.md": {
+    "mtime": 1779365529.6258307,
+    "ast_hash": "55d700a2c2e3af3e50e929a138ff3c51",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\000.png": {
+    "mtime": 1648814020.0,
+    "ast_hash": "b203850627df25e3ed7ba7e641e681bc",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\001.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "1a6f830965d57de47d3575e39cbf28d8",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\002.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "3896997c757608b5ba4f5944a722df98",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\003.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "0bf1507047a5cd6f6d4ceb8c9dcd9a02",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\004.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "a1b4428c218ef7bd931d8a13d49f9497",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\005.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "448c2ed730bd3ffdb19b3d978d947055",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\006.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "c6f9f8c27ea769a8cc05aa49c7885972",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\007.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "be88a508eddce5f8bbfe82f0d4b92666",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\008.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "f2b67b9cd4ff1d545dcefa689e119d15",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\009.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "5318228a8e30dd32f7e2770dd5c8a5f1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\010.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "213a963c384a31dc6a75c8577438302f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\011.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "54c83b16162b7ba54f6451748b0f20c5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\012.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "36e3a6c914f0095c58adb14d58000ba0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\013.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "c02805f5eacceafc7dec97abf50cb9eb",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\014.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "c2f1de1acedd0889ab532822d7480ba6",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\015.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "a868b71ccc4922f391abafd1e756de01",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\016.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "908025a3bd15df4f45304ec9bd26d8ea",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\017.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "8650316fd01c6d0f881938e0b1ca2823",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\018.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "43ecbaafeac812a0c7665357595f02d7",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\019.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "43d07367bc21180ca5fbeea4de896718",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\020.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "3e15cfe60a02a85a7961d53af7a12f51",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\021.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "f777bcc3f17fe134e82be63dfce3c6f0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\022.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "0660c266e6ef69c13564bfbed9e87c36",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\023.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "ead544f18941b2e81171dc139c6945a6",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\024.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "559ae9d53a5eee356df21c4dcdf54aed",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\025.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "e7ff6ddff5fe366895a1345d6c8d548e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\026.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "99efa4d22a17c0b82f8a938181e56072",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\027.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "4803ca767e9dca26c1664e23d28f33ce",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\028.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "7b4e4346af5b0f792a833efc00c67057",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\029.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "8fbaaba070b30663685c657e1fb2994b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\030.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "25ed7ced472c93310dd4976a4f3ece3f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\031.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "f0b449e588f8164eb54fa6afbe16ef35",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\032.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "f61e4237fdeb86688befec7d5fa67815",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\033.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "f224bf0aebb2b27728649eaff7c0b807",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\034.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "f41e3ff7b314c50b712e5032f15f333b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\035.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "91005c211c3f7c08f6148535a43f63ba",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\036.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "d37d332f58230eb7f6f81c9d54aabf40",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\037.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "c7b4fd4e300eba7a099d4b857893b22d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\038.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "13225ed63e32302ed4f7ea71fdc03256",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\039.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "29a3bc8f4d00848a0b7487c2449ffee6",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\040.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "f6345c0b30783f6f4485121ece709751",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\041.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "b025cbe2f3ca44152c0d7980e3f0efca",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\042.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "03bab72d5f57ee1fb557deb4c00c358c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\043.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "4030c809bb09bcc3043c1d782d7f4455",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\044.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "74864886e3ef59ea09742b8ae90b9661",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\045.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "de000f81b302f38b675e3af2acec5619",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\046.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "7e25c85319e41218d2f2f55d10379f81",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\047.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "e045b2263240ad8fb1f42b6121e4ca23",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\048.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "b0a98220d6482570fa8a0fe48abbf471",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\049.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "62207484f7fd145b3cbff0d47044059a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\050.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "90da95467a2422ab143406a8dd39fbfe",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\051.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "bf1ef7a5413820cdebedd9fbd606f83a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\052.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "4f60cc0dc64ed82cb4690c7f7341a6de",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\053.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "aef7b2eea542297c3528935ae5f5064b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\054.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "6ee11e06dbafeadc3a1b03edfcc2099e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\055.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "8e422c5ead15e3f8139d7316b8d7a735",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\056.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "89317411eef2f65e1727d3c1c36f8149",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\057.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "70ced0404fe958fddce116373078bd1c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\058.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "12b7914e730fc90aca3e8ca2817ca7c2",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\059.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "976ba4e2080e601b1f61a0cc52fcdc29",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\060.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "783922bdcc2354abdc8cfe234c5cc587",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\061.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "cf4b25812d7c2ec32adc5e49e97f9e11",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\062.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "66cf15395dd16ed75e8f8cc9953a5e67",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\063.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "81468ded48bc6486ab0d65b6bb1fe0df",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\064.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "a3774761bf9540eac009a73d177dea45",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\065.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "895eff535c3f6616b1b6c85302f75170",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\066.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "762506439e54549b92d990b413f8808a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\067.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "44c0aa5f6a6405ced96c9efaed5a6042",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\068.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "d232460ddf5bd85af855f93801ce1d9d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\069.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "88c2b807ee90286533c5497a00167b34",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\070.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "5389f91a9da772f2556e40607e88efd2",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\071.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "28c50e52592cb6143282f6e6de66e05a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\072.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "dcfa6e5c4767c72358561819ac51fc71",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\073.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "899485f9e0e0d9c631c171e1509ed036",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\074.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "1aa48a50d286233226b85c62fa56d799",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\075.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "11f026ca22a80b209796294d99723439",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\076.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "545d55d2c1b96ef794940e15ba048ff8",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\077.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "ce9ade138951847a23063e751e65f504",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\078.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "0d1c7aa7966ac1698718e398acec485c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\079.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "6e3c0204424e70ee7ea80c632cafb4ed",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\080.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "13a040ebba5b6e6ccd6e24e39ceead38",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\081.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "cc6dae98c06225a635f60d955b490b86",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\082.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "c6125747a6f38c742805721ecbdc037e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\083.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "aec2b30ad156da0548b4e54d2aea6786",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\084.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "f5b5cc58b83961d45d134bd6dbe27c75",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\085.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "aae76e59507687900ca3aee06b573be5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\086.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "2c554e90b273a7fa0b52f42acc9ca1d5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\087.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "e7bb2a251b14bd3a19bdf401a0411b99",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\088.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "6ceaa66b911379626f43124591d79d0c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\089.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "3f0d9d103c3d7270f0c31729b69a4ffa",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\090.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "06642060c40349409de69cf48f4e0266",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\091.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "3f2d61d10ea1675816aee723ca43a979",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\092.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "c0ffd0979f2c404f00f46e365cc11b13",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\093.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "f7d146cf6935be0174cfd327e4b9c284",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\094.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "c4106c1d32e8e7a88d08a809ad4d9d6f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\095.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "68cc38afe26ce6a15302dab6e29e2102",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\096.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "5f40f4ecd6e133f51af9544f1804448e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\097.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "a68fbe8d82b4a57b3764363581e70d5a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\098.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "50b011890121b6c748c9f8ea928a8333",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\hemorrhage\\099.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "a22298d48223cff7dfa16661065f637c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\100.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "a23fccc2a439f5c774968c6ca34d0352",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\101.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "59118f1a04fc67d0b90db603e2674bba",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\102.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "4930a0853e74311be8c9e658e5a03ce8",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\103.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "065d41f48c8e896ac9e6401520e484be",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\104.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "ed9e80d9b2aad90e5da992f35f9c5972",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\105.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "254caf3046aaf9c723c487ab4e4fb5cf",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\106.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "cd68040271876c5c7adf6a19e4c17871",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\107.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "20957ca7c15a9ace631504344aa17a13",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\108.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "0347039d1cf813e27ebc94659e6b3ab0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\109.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "63cee7385fd43b45b6d6bd5d8fb67a9f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\110.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "9c25073c0795f679ae5d8b91237e884a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\111.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "7a2533e6c90a4341aacab63262793cde",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\112.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "93e3ebfe2ca99ac7703959c1c37ca29d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\113.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "f5f0757f2e0e90bb1435ec5ff8471493",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\114.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "7125cab9ab2b98926808658add13c223",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\115.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "edd59d5a7fc55771ea100363dbb79860",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\116.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "3e1c7dcc0f7c3e93f83d2ba6217672b4",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\117.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "aa4b585846ddda368c612383d21e8e58",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\118.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "c8c64f579652d271687245f4c35a69f1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\119.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "e053bd96f2956edcde2d8398867c8a0c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\120.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "b3b52173553eee159073a1084aa1d531",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\121.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "704c0c53fb45b5b8320e12f85934368e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\122.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "3a221817db47b0cd5bc686520bd096a7",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\123.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "1b11b0081b6b2d33673ddc0baf284df5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\124.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "e27a173bc6a015b8fe254c9133a91630",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\125.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "b931705cb694710b45d2f56f624dd6e0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\126.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "cd3fbaa7ea4df1beddda8eff7e822e54",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\127.png": {
+    "mtime": 1648814030.0,
+    "ast_hash": "cbdeae40b70aadd75d3ee6835602a9cf",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\128.png": {
+    "mtime": 1648814030.0,
+    "ast_hash": "82d51c2e0469b47ba57c3ddf67e12240",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\129.png": {
+    "mtime": 1648814030.0,
+    "ast_hash": "14cb79379e4adcdca913464c1d971392",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\130.png": {
+    "mtime": 1648814030.0,
+    "ast_hash": "e2303d0b83cc8689caac0fb1c6a4bbe1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\131.png": {
+    "mtime": 1648814030.0,
+    "ast_hash": "c010109912d4f75729e0af30d3813a1b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\132.png": {
+    "mtime": 1648814030.0,
+    "ast_hash": "aae06a3ed6308254140b84b191a632b1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\133.png": {
+    "mtime": 1648814030.0,
+    "ast_hash": "e1b8676ac52e3b7989abcd40b44838ef",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\134.png": {
+    "mtime": 1648814030.0,
+    "ast_hash": "098ce9014e51e2ee70b15fabd0b5a205",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\135.png": {
+    "mtime": 1648814030.0,
+    "ast_hash": "7535a1cac016e0fce141bcb7d792344d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\136.png": {
+    "mtime": 1648814030.0,
+    "ast_hash": "f8ff8ae23686998c2e8f466ecb9c5c35",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\137.png": {
+    "mtime": 1648814030.0,
+    "ast_hash": "b7cc12736e59e9fae951f4b4211bb03e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\138.png": {
+    "mtime": 1648814030.0,
+    "ast_hash": "bf9a4e316ef773228e9969fc619ff3f1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\139.png": {
+    "mtime": 1648814030.0,
+    "ast_hash": "1453c8ef95921b8add698dcf8675d761",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\140.png": {
+    "mtime": 1648814030.0,
+    "ast_hash": "e5894e5a9d02ca30d53a756667322171",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\141.png": {
+    "mtime": 1648814030.0,
+    "ast_hash": "1339b26fc9f2f088a95c590e29dc405a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\142.png": {
+    "mtime": 1648814030.0,
+    "ast_hash": "b7733cdafbb36b7491e3c76fdffbb683",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\143.png": {
+    "mtime": 1648814030.0,
+    "ast_hash": "f3e3103124f6e27ad81a12f3ea20b211",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\144.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "b4c078e31d21f69c42e4f43fde02f08e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\145.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "7b028dced770b7db76bf31859d4582fa",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\146.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "2f2b62b665e5a2c4fc9b63c5c54469b1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\147.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "d56f7ec6ac66a4ff23f7baccd0f85954",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\148.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "d63981e118acdf4ab2af099196536eb0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\149.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "f23d2df1b9818e9e7a0d15e134ad2b70",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\150.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "d70917c70e22cd3ecf366a8cd5dc399c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\151.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "ac730cd0d9456964e5ab6e9a6643195e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\152.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "08531b4247a3bdf562302a9155ad9691",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\153.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "58d1ee1635f4bf45d3dd4ba28849f2e3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\154.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "b8e8b631dc84f31886c954c7317b1d04",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\155.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "127b092d2092e68c8ae56b2f72718122",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\156.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "00a0adcc75bae2408f3bc5c60c576bea",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\157.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "8127734e84f4e52e70cbbbf691efa41d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\158.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "417de02e9d89513c9ce0c8e07dabe715",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\159.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "a1cb2600c77d9f79d43a6465c22e08f7",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\160.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "36f2d9a2c21ff03f204507e218563e86",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\161.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "4216fdca567ddb0cfed06a1b1c50369e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\162.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "4504a21602bdc3112492b130ac4a53b3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\163.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "c0bbac2e48e3414ed3bb656948bb50b3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\164.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "403e718a148602630eb55d386025efbc",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\165.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "cb89eb3b5f50e653294bd98f8de0069d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\166.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "9cf609e63340ed04f7ba103b97432e05",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\167.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "cd18cce5dce58dc808b572bda8da2c0c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\168.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "53edd225a980b1388b1081f87bebace1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\169.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "ee45aa6ba00d3ff9e700db773930a89d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\170.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "09b108c3b619d1187cd6cb374d4ff2ac",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\171.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "a0578268fb0236d6afc9e7575d912d77",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\172.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "1f0ca75787bd2aa23ef7a3c3c2ea5e52",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\173.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "fd80b52d522e5b8de3113f5bc2b2f2a5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\174.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "2fd18dbcee9133fd337bb74f523009c9",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\175.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "99fdbc71d16d9d272c8eddc32a2b1b67",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\176.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "015c2859abc40aa9f5173989678f61d7",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\177.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "e0c72e1adcb6284adb09c2586c115385",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\178.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "f7a87cd93ef8a18437e052945726681d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\179.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "d0924c5a9d9b969e2598ca676cf9ebe1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\180.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "12599c3dfd23f6633b2dd47706584d19",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\181.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "a4a9ef6bd7e0cf582ba70b039b910d0f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\182.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "b3ac64f06be5763869514b6db0ba8c64",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\183.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "d333dba2ff953bc4f67ec6c53c16874a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\184.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "c45733e4b943c5f8764757b8334cad98",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\185.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "9e9a81648e712530858ccffd9c4684be",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\186.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "08181612267754e9d195eba07fa9b37c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\187.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "60a8fbb6739cfae8ced4f73c0df107c1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\188.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "9541582e6c343b4881b80a3706cf7301",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\189.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "9541582e6c343b4881b80a3706cf7301",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\190.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "c4aef313d466695cdc5744c0419b7e1e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\191.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "2bd0d671a92170e634fa93fa525b39da",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\192.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "508f49495296edc77ee4626f5404c724",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\193.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "043785ec51dc4880b973e9da76900495",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\194.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "76aa83b30d933bee4504c19cc6dd9a39",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\195.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "db08d1eafd11c262cdd50bbb6765cd94",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\196.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "b1f2fa42be17bc2433041e9c2856cce7",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\197.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "5270ceacb8d9f406a92a9251e894c2a6",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\198.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "599c03a56107809031194b0d494ba1ff",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\Dataset\\normal\\199.png": {
+    "mtime": 1648814036.0,
+    "ast_hash": "9f7849d13fa35c375369f9e63e5da5e9",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\outputs\\confusion_matrix.png": {
+    "mtime": 1779566734.849621,
+    "ast_hash": "3fd60864492e86581f4ac2f850518a71",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\outputs\\roc_curve.png": {
+    "mtime": 1779566735.0083966,
+    "ast_hash": "e4b4aacdb96abf1c912ea9b38484ce65",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\testImages\\0.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "1b11b0081b6b2d33673ddc0baf284df5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\testImages\\1.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "be88a508eddce5f8bbfe82f0d4b92666",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\testImages\\10.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "c6125747a6f38c742805721ecbdc037e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\testImages\\11.png": {
+    "mtime": 1648814022.0,
+    "ast_hash": "36e3a6c914f0095c58adb14d58000ba0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\testImages\\16.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "9e9a81648e712530858ccffd9c4684be",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\testImages\\22.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "25ed7ced472c93310dd4976a4f3ece3f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\testImages\\23.png": {
+    "mtime": 1648814032.0,
+    "ast_hash": "b4c078e31d21f69c42e4f43fde02f08e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\testImages\\32.png": {
+    "mtime": 1648814034.0,
+    "ast_hash": "d333dba2ff953bc4f67ec6c53c16874a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\testImages\\33.png": {
+    "mtime": 1648814024.0,
+    "ast_hash": "70ced0404fe958fddce116373078bd1c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\testImages\\44.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "11f026ca22a80b209796294d99723439",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\testImages\\55.png": {
+    "mtime": 1648814026.0,
+    "ast_hash": "0d1c7aa7966ac1698718e398acec485c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\testImages\\8.png": {
+    "mtime": 1648814028.0,
+    "ast_hash": "e27a173bc6a015b8fe254c9133a91630",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Deepak\\ML-projects\\Hemorrhage_Detection\\testImages\\t2.png": {
+    "mtime": 1617036696.0,
+    "ast_hash": "1d3b6c9149c789a06bc9fd8a37533bfc",
+    "semantic_hash": ""
+  }
+}

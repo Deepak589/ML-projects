@@ -1,0 +1,4160 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "settings.local.json",
+      "file_type": "code",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L1",
+      "id": "claude_settings_local_json",
+      "community": 13,
+      "norm_label": "settings.local.json"
+    },
+    {
+      "label": "permissions",
+      "file_type": "code",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L2",
+      "id": "claude_settings_local_permissions",
+      "community": 13,
+      "norm_label": "permissions"
+    },
+    {
+      "label": "allow",
+      "file_type": "code",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L3",
+      "id": "claude_settings_local_permissions_allow",
+      "community": 13,
+      "norm_label": "allow"
+    },
+    {
+      "label": "Main.py",
+      "file_type": "code",
+      "source_file": "legacy/Main.py",
+      "source_location": "L1",
+      "id": "legacy_main_py",
+      "community": 9,
+      "norm_label": "main.py"
+    },
+    {
+      "label": "uploadDataset()",
+      "file_type": "code",
+      "source_file": "legacy/Main.py",
+      "source_location": "L33",
+      "id": "legacy_main_uploaddataset",
+      "community": 9,
+      "norm_label": "uploaddataset()"
+    },
+    {
+      "label": "preprocess()",
+      "file_type": "code",
+      "source_file": "legacy/Main.py",
+      "source_location": "L40",
+      "id": "legacy_main_preprocess",
+      "community": 9,
+      "norm_label": "preprocess()"
+    },
+    {
+      "label": "trainYolo()",
+      "file_type": "code",
+      "source_file": "legacy/Main.py",
+      "source_location": "L65",
+      "id": "legacy_main_trainyolo",
+      "community": 9,
+      "norm_label": "trainyolo()"
+    },
+    {
+      "label": "graph()",
+      "file_type": "code",
+      "source_file": "legacy/Main.py",
+      "source_location": "L120",
+      "id": "legacy_main_graph",
+      "community": 9,
+      "norm_label": "graph()"
+    },
+    {
+      "label": "predict()",
+      "file_type": "code",
+      "source_file": "legacy/Main.py",
+      "source_location": "L136",
+      "id": "legacy_main_predict",
+      "community": 9,
+      "norm_label": "predict()"
+    },
+    {
+      "label": "close()",
+      "file_type": "code",
+      "source_file": "legacy/Main.py",
+      "source_location": "L162",
+      "id": "legacy_main_close",
+      "community": 9,
+      "norm_label": "close()"
+    },
+    {
+      "label": "yolomodel.json",
+      "file_type": "code",
+      "source_file": "legacy/yolomodel/yolomodel.json",
+      "source_location": "L1",
+      "id": "legacy_yolomodel_yolomodel_json",
+      "community": 10,
+      "norm_label": "yolomodel.json"
+    },
+    {
+      "label": "class_name",
+      "file_type": "code",
+      "source_file": "legacy/yolomodel/yolomodel.json",
+      "source_location": "L1",
+      "id": "yolomodel_yolomodel_class_name",
+      "community": 10,
+      "norm_label": "class_name"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "legacy/yolomodel/yolomodel.json",
+      "source_location": "L1",
+      "id": "yolomodel_yolomodel_config",
+      "community": 10,
+      "norm_label": "config"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "legacy/yolomodel/yolomodel.json",
+      "source_location": "L1",
+      "id": "yolomodel_yolomodel_config_name",
+      "community": 10,
+      "norm_label": "name"
+    },
+    {
+      "label": "layers",
+      "file_type": "code",
+      "source_file": "legacy/yolomodel/yolomodel.json",
+      "source_location": "L1",
+      "id": "yolomodel_yolomodel_config_layers",
+      "community": 10,
+      "norm_label": "layers"
+    },
+    {
+      "label": "keras_version",
+      "file_type": "code",
+      "source_file": "legacy/yolomodel/yolomodel.json",
+      "source_location": "L1",
+      "id": "yolomodel_yolomodel_keras_version",
+      "community": 10,
+      "norm_label": "keras_version"
+    },
+    {
+      "label": "backend",
+      "file_type": "code",
+      "source_file": "legacy/yolomodel/yolomodel.json",
+      "source_location": "L1",
+      "id": "yolomodel_yolomodel_backend",
+      "community": 10,
+      "norm_label": "backend"
+    },
+    {
+      "label": "metrics.json",
+      "file_type": "code",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L1",
+      "id": "outputs_metrics_json",
+      "community": 5,
+      "norm_label": "metrics.json"
+    },
+    {
+      "label": "threshold",
+      "file_type": "code",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L2",
+      "id": "outputs_metrics_threshold",
+      "community": 5,
+      "norm_label": "threshold"
+    },
+    {
+      "label": "tta",
+      "file_type": "code",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L3",
+      "id": "outputs_metrics_tta",
+      "community": 5,
+      "norm_label": "tta"
+    },
+    {
+      "label": "accuracy",
+      "file_type": "code",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L4",
+      "id": "outputs_metrics_accuracy",
+      "community": 5,
+      "norm_label": "accuracy"
+    },
+    {
+      "label": "precision_binary",
+      "file_type": "code",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L5",
+      "id": "outputs_metrics_precision_binary",
+      "community": 5,
+      "norm_label": "precision_binary"
+    },
+    {
+      "label": "recall_binary",
+      "file_type": "code",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L6",
+      "id": "outputs_metrics_recall_binary",
+      "community": 5,
+      "norm_label": "recall_binary"
+    },
+    {
+      "label": "f1_binary",
+      "file_type": "code",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L7",
+      "id": "outputs_metrics_f1_binary",
+      "community": 5,
+      "norm_label": "f1_binary"
+    },
+    {
+      "label": "precision_macro",
+      "file_type": "code",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L8",
+      "id": "outputs_metrics_precision_macro",
+      "community": 5,
+      "norm_label": "precision_macro"
+    },
+    {
+      "label": "recall_macro",
+      "file_type": "code",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L9",
+      "id": "outputs_metrics_recall_macro",
+      "community": 5,
+      "norm_label": "recall_macro"
+    },
+    {
+      "label": "f1_macro",
+      "file_type": "code",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L10",
+      "id": "outputs_metrics_f1_macro",
+      "community": 5,
+      "norm_label": "f1_macro"
+    },
+    {
+      "label": "roc_auc",
+      "file_type": "code",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L11",
+      "id": "outputs_metrics_roc_auc",
+      "community": 5,
+      "norm_label": "roc_auc"
+    },
+    {
+      "label": "pr_auc",
+      "file_type": "code",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L12",
+      "id": "outputs_metrics_pr_auc",
+      "community": 5,
+      "norm_label": "pr_auc"
+    },
+    {
+      "label": "n_test",
+      "file_type": "code",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L13",
+      "id": "outputs_metrics_n_test",
+      "community": 5,
+      "norm_label": "n_test"
+    },
+    {
+      "label": "config.py",
+      "file_type": "code",
+      "source_file": "src/config.py",
+      "source_location": "L1",
+      "id": "src_config_py",
+      "community": 15,
+      "norm_label": "config.py"
+    },
+    {
+      "label": "Central configuration for hemorrhage detection.",
+      "file_type": "rationale",
+      "source_file": "src/config.py",
+      "source_location": "L1",
+      "id": "src_config_rationale_1",
+      "community": 15,
+      "norm_label": "central configuration for hemorrhage detection."
+    },
+    {
+      "label": "data.py",
+      "file_type": "code",
+      "source_file": "src/data.py",
+      "source_location": "L1",
+      "id": "src_data_py",
+      "community": 1,
+      "norm_label": "data.py"
+    },
+    {
+      "label": "HemorrhageDataset",
+      "file_type": "code",
+      "source_file": "src/data.py",
+      "source_location": "L17",
+      "id": "src_data_hemorrhagedataset",
+      "community": 1,
+      "norm_label": "hemorrhagedataset"
+    },
+    {
+      "label": "Dataset",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "dataset",
+      "community": 1,
+      "norm_label": "dataset"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "src/data.py",
+      "source_location": "L20",
+      "id": "src_data_hemorrhagedataset_init",
+      "community": 1,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".__len__()",
+      "file_type": "code",
+      "source_file": "src/data.py",
+      "source_location": "L34",
+      "id": "src_data_hemorrhagedataset_len",
+      "community": 1,
+      "norm_label": ".__len__()"
+    },
+    {
+      "label": ".__getitem__()",
+      "file_type": "code",
+      "source_file": "src/data.py",
+      "source_location": "L37",
+      "id": "src_data_hemorrhagedataset_getitem",
+      "community": 1,
+      "norm_label": ".__getitem__()"
+    },
+    {
+      "label": "labels()",
+      "file_type": "code",
+      "source_file": "src/data.py",
+      "source_location": "L45",
+      "id": "src_data_labels",
+      "community": 1,
+      "norm_label": "labels()"
+    },
+    {
+      "label": "get_train_transforms()",
+      "file_type": "code",
+      "source_file": "src/data.py",
+      "source_location": "L49",
+      "id": "src_data_get_train_transforms",
+      "community": 1,
+      "norm_label": "get_train_transforms()"
+    },
+    {
+      "label": "get_eval_transforms()",
+      "file_type": "code",
+      "source_file": "src/data.py",
+      "source_location": "L63",
+      "id": "src_data_get_eval_transforms",
+      "community": 1,
+      "norm_label": "get_eval_transforms()"
+    },
+    {
+      "label": "_make_weighted_sampler()",
+      "file_type": "code",
+      "source_file": "src/data.py",
+      "source_location": "L71",
+      "id": "src_data_make_weighted_sampler",
+      "community": 1,
+      "norm_label": "_make_weighted_sampler()"
+    },
+    {
+      "label": "get_dataloaders()",
+      "file_type": "code",
+      "source_file": "src/data.py",
+      "source_location": "L83",
+      "id": "src_data_get_dataloaders",
+      "community": 1,
+      "norm_label": "get_dataloaders()"
+    },
+    {
+      "label": "Dataset, transforms, splits, dataloaders.",
+      "file_type": "rationale",
+      "source_file": "src/data.py",
+      "source_location": "L1",
+      "id": "src_data_rationale_1",
+      "community": 1,
+      "norm_label": "dataset, transforms, splits, dataloaders."
+    },
+    {
+      "label": "Loads PNG CT scans from class-named subfolders.",
+      "file_type": "rationale",
+      "source_file": "src/data.py",
+      "source_location": "L18",
+      "id": "src_data_rationale_18",
+      "community": 1,
+      "norm_label": "loads png ct scans from class-named subfolders."
+    },
+    {
+      "label": "Stratified 70/15/15 split with class-balanced train sampler.",
+      "file_type": "rationale",
+      "source_file": "src/data.py",
+      "source_location": "L89",
+      "id": "src_data_rationale_89",
+      "community": 1,
+      "norm_label": "stratified 70/15/15 split with class-balanced train sampler."
+    },
+    {
+      "label": "evaluate.py",
+      "file_type": "code",
+      "source_file": "src/evaluate.py",
+      "source_location": "L1",
+      "id": "src_evaluate_py",
+      "community": 7,
+      "norm_label": "evaluate.py"
+    },
+    {
+      "label": "collect_predictions()",
+      "file_type": "code",
+      "source_file": "src/evaluate.py",
+      "source_location": "L32",
+      "id": "src_evaluate_collect_predictions",
+      "community": 7,
+      "norm_label": "collect_predictions()"
+    },
+    {
+      "label": "best_threshold()",
+      "file_type": "code",
+      "source_file": "src/evaluate.py",
+      "source_location": "L48",
+      "id": "src_evaluate_best_threshold",
+      "community": 7,
+      "norm_label": "best_threshold()"
+    },
+    {
+      "label": "plot_confusion()",
+      "file_type": "code",
+      "source_file": "src/evaluate.py",
+      "source_location": "L58",
+      "id": "src_evaluate_plot_confusion",
+      "community": 7,
+      "norm_label": "plot_confusion()"
+    },
+    {
+      "label": "plot_roc()",
+      "file_type": "code",
+      "source_file": "src/evaluate.py",
+      "source_location": "L76",
+      "id": "src_evaluate_plot_roc",
+      "community": 7,
+      "norm_label": "plot_roc()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "src/evaluate.py",
+      "source_location": "L91",
+      "id": "src_evaluate_main",
+      "community": 7,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Evaluation entry point: metrics, confusion matrix, ROC curve.",
+      "file_type": "rationale",
+      "source_file": "src/evaluate.py",
+      "source_location": "L1",
+      "id": "src_evaluate_rationale_1",
+      "community": 7,
+      "norm_label": "evaluation entry point: metrics, confusion matrix, roc curve."
+    },
+    {
+      "label": "Return (probs_of_hemorrhage, labels). Preds derived later via threshold.",
+      "file_type": "rationale",
+      "source_file": "src/evaluate.py",
+      "source_location": "L33",
+      "id": "src_evaluate_rationale_33",
+      "community": 7,
+      "norm_label": "return (probs_of_hemorrhage, labels). preds derived later via threshold."
+    },
+    {
+      "label": "Pick threshold maximizing F-beta (beta>1 favors recall) on given split.",
+      "file_type": "rationale",
+      "source_file": "src/evaluate.py",
+      "source_location": "L49",
+      "id": "src_evaluate_rationale_49",
+      "community": 7,
+      "norm_label": "pick threshold maximizing f-beta (beta>1 favors recall) on given split."
+    },
+    {
+      "label": "model.py",
+      "file_type": "code",
+      "source_file": "src/model.py",
+      "source_location": "L1",
+      "id": "src_model_py",
+      "community": 3,
+      "norm_label": "model.py"
+    },
+    {
+      "label": "build_model()",
+      "file_type": "code",
+      "source_file": "src/model.py",
+      "source_location": "L10",
+      "id": "src_model_build_model",
+      "community": 3,
+      "norm_label": "build_model()"
+    },
+    {
+      "label": "Create a timm model with a custom classification head.",
+      "file_type": "rationale",
+      "source_file": "src/model.py",
+      "source_location": "L15",
+      "id": "src_model_rationale_15",
+      "community": 3,
+      "norm_label": "create a timm model with a custom classification head."
+    },
+    {
+      "label": "predict.py",
+      "file_type": "code",
+      "source_file": "src/predict.py",
+      "source_location": "L1",
+      "id": "src_predict_py",
+      "community": 6,
+      "norm_label": "predict.py"
+    },
+    {
+      "label": "tta_softmax()",
+      "file_type": "code",
+      "source_file": "src/predict.py",
+      "source_location": "L20",
+      "id": "src_predict_tta_softmax",
+      "community": 7,
+      "norm_label": "tta_softmax()"
+    },
+    {
+      "label": "_resolve_device()",
+      "file_type": "code",
+      "source_file": "src/predict.py",
+      "source_location": "L36",
+      "id": "src_predict_resolve_device",
+      "community": 6,
+      "norm_label": "_resolve_device()"
+    },
+    {
+      "label": "load_model()",
+      "file_type": "code",
+      "source_file": "src/predict.py",
+      "source_location": "L42",
+      "id": "src_predict_load_model",
+      "community": 6,
+      "norm_label": "load_model()"
+    },
+    {
+      "label": "_to_ndarray()",
+      "file_type": "code",
+      "source_file": "src/predict.py",
+      "source_location": "L64",
+      "id": "src_predict_to_ndarray",
+      "community": 6,
+      "norm_label": "_to_ndarray()"
+    },
+    {
+      "label": "predict_image()",
+      "file_type": "code",
+      "source_file": "src/predict.py",
+      "source_location": "L79",
+      "id": "src_predict_predict_image",
+      "community": 6,
+      "norm_label": "predict_image()"
+    },
+    {
+      "label": "Inference API for Streamlit (or any external caller).",
+      "file_type": "rationale",
+      "source_file": "src/predict.py",
+      "source_location": "L1",
+      "id": "src_predict_rationale_1",
+      "community": 6,
+      "norm_label": "inference api for streamlit (or any external caller)."
+    },
+    {
+      "label": "Average softmax over test-time-augmentation views.      Views match training aug",
+      "file_type": "rationale",
+      "source_file": "src/predict.py",
+      "source_location": "L21",
+      "id": "src_predict_rationale_21",
+      "community": 7,
+      "norm_label": "average softmax over test-time-augmentation views.      views match training aug"
+    },
+    {
+      "label": "Load a trained checkpoint and return (model, class_names).",
+      "file_type": "rationale",
+      "source_file": "src/predict.py",
+      "source_location": "L46",
+      "id": "src_predict_rationale_46",
+      "community": 6,
+      "norm_label": "load a trained checkpoint and return (model, class_names)."
+    },
+    {
+      "label": "Predict the class of a single image.      tta: average over flip/rotation views",
+      "file_type": "rationale",
+      "source_file": "src/predict.py",
+      "source_location": "L87",
+      "id": "src_predict_rationale_87",
+      "community": 6,
+      "norm_label": "predict the class of a single image.      tta: average over flip/rotation views"
+    },
+    {
+      "label": "train.py",
+      "file_type": "code",
+      "source_file": "src/train.py",
+      "source_location": "L1",
+      "id": "src_train_py",
+      "community": 3,
+      "norm_label": "train.py"
+    },
+    {
+      "label": "FocalLoss",
+      "file_type": "code",
+      "source_file": "src/train.py",
+      "source_location": "L23",
+      "id": "src_train_focalloss",
+      "community": 3,
+      "norm_label": "focalloss"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "src/train.py",
+      "source_location": "L26",
+      "id": "src_train_focalloss_init",
+      "community": 3,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".forward()",
+      "file_type": "code",
+      "source_file": "src/train.py",
+      "source_location": "L31",
+      "id": "src_train_focalloss_forward",
+      "community": 3,
+      "norm_label": ".forward()"
+    },
+    {
+      "label": "set_seed()",
+      "file_type": "code",
+      "source_file": "src/train.py",
+      "source_location": "L38",
+      "id": "src_train_set_seed",
+      "community": 3,
+      "norm_label": "set_seed()"
+    },
+    {
+      "label": "evaluate()",
+      "file_type": "code",
+      "source_file": "src/train.py",
+      "source_location": "L45",
+      "id": "src_train_evaluate",
+      "community": 3,
+      "norm_label": "evaluate()"
+    },
+    {
+      "label": "train_one_epoch()",
+      "file_type": "code",
+      "source_file": "src/train.py",
+      "source_location": "L75",
+      "id": "src_train_train_one_epoch",
+      "community": 3,
+      "norm_label": "train_one_epoch()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "src/train.py",
+      "source_location": "L98",
+      "id": "src_train_main",
+      "community": 3,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Training entry point: AMP, early stopping, ROC-AUC checkpoint.",
+      "file_type": "rationale",
+      "source_file": "src/train.py",
+      "source_location": "L1",
+      "id": "src_train_rationale_1",
+      "community": 3,
+      "norm_label": "training entry point: amp, early stopping, roc-auc checkpoint."
+    },
+    {
+      "label": "Multiclass focal loss operating on logits + integer labels.",
+      "file_type": "rationale",
+      "source_file": "src/train.py",
+      "source_location": "L24",
+      "id": "src_train_rationale_24",
+      "community": 3,
+      "norm_label": "multiclass focal loss operating on logits + integer labels."
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "src/__init__.py",
+      "source_location": "L1",
+      "id": "src_init_py",
+      "community": 16,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "test_data.py",
+      "file_type": "code",
+      "source_file": "tests/test_data.py",
+      "source_location": "L1",
+      "id": "tests_test_data_py",
+      "community": 1,
+      "norm_label": "test_data.py"
+    },
+    {
+      "label": "_dataset_readable()",
+      "file_type": "code",
+      "source_file": "tests/test_data.py",
+      "source_location": "L19",
+      "id": "tests_test_data_dataset_readable",
+      "community": 1,
+      "norm_label": "_dataset_readable()"
+    },
+    {
+      "label": "data_root()",
+      "file_type": "code",
+      "source_file": "tests/test_data.py",
+      "source_location": "L37",
+      "id": "tests_test_data_data_root",
+      "community": 1,
+      "norm_label": "data_root()"
+    },
+    {
+      "label": "test_dataset_lists_both_classes()",
+      "file_type": "code",
+      "source_file": "tests/test_data.py",
+      "source_location": "L53",
+      "id": "tests_test_data_test_dataset_lists_both_classes",
+      "community": 1,
+      "norm_label": "test_dataset_lists_both_classes()"
+    },
+    {
+      "label": "test_dataset_returns_tensor_with_correct_shape()",
+      "file_type": "code",
+      "source_file": "tests/test_data.py",
+      "source_location": "L59",
+      "id": "tests_test_data_test_dataset_returns_tensor_with_correct_shape",
+      "community": 1,
+      "norm_label": "test_dataset_returns_tensor_with_correct_shape()"
+    },
+    {
+      "label": "test_get_dataloaders_returns_three_loaders()",
+      "file_type": "code",
+      "source_file": "tests/test_data.py",
+      "source_location": "L67",
+      "id": "tests_test_data_test_get_dataloaders_returns_three_loaders",
+      "community": 1,
+      "norm_label": "test_get_dataloaders_returns_three_loaders()"
+    },
+    {
+      "label": "test_train_loader_batch_shape()",
+      "file_type": "code",
+      "source_file": "tests/test_data.py",
+      "source_location": "L76",
+      "id": "tests_test_data_test_train_loader_batch_shape",
+      "community": 1,
+      "norm_label": "test_train_loader_batch_shape()"
+    },
+    {
+      "label": "test_train_transforms_output_shape()",
+      "file_type": "code",
+      "source_file": "tests/test_data.py",
+      "source_location": "L85",
+      "id": "tests_test_data_test_train_transforms_output_shape",
+      "community": 1,
+      "norm_label": "test_train_transforms_output_shape()"
+    },
+    {
+      "label": "Return True if at least one real Dataset image can be opened.",
+      "file_type": "rationale",
+      "source_file": "tests/test_data.py",
+      "source_location": "L20",
+      "id": "tests_test_data_rationale_20",
+      "community": 1,
+      "norm_label": "return true if at least one real dataset image can be opened."
+    },
+    {
+      "label": "Return real DATA_ROOT if readable, else a synthetic one with 30 images per class",
+      "file_type": "rationale",
+      "source_file": "tests/test_data.py",
+      "source_location": "L38",
+      "id": "tests_test_data_rationale_38",
+      "community": 1,
+      "norm_label": "return real data_root if readable, else a synthetic one with 30 images per class"
+    },
+    {
+      "label": "Train transforms must produce a valid CHW float tensor of the expected spatial s",
+      "file_type": "rationale",
+      "source_file": "tests/test_data.py",
+      "source_location": "L86",
+      "id": "tests_test_data_rationale_86",
+      "community": 1,
+      "norm_label": "train transforms must produce a valid chw float tensor of the expected spatial s"
+    },
+    {
+      "label": "test_model.py",
+      "file_type": "code",
+      "source_file": "tests/test_model.py",
+      "source_location": "L1",
+      "id": "tests_test_model_py",
+      "community": 3,
+      "norm_label": "test_model.py"
+    },
+    {
+      "label": "test_build_model_returns_module()",
+      "file_type": "code",
+      "source_file": "tests/test_model.py",
+      "source_location": "L8",
+      "id": "tests_test_model_test_build_model_returns_module",
+      "community": 3,
+      "norm_label": "test_build_model_returns_module()"
+    },
+    {
+      "label": "test_model_forward_shape()",
+      "file_type": "code",
+      "source_file": "tests/test_model.py",
+      "source_location": "L13",
+      "id": "tests_test_model_test_model_forward_shape",
+      "community": 3,
+      "norm_label": "test_model_forward_shape()"
+    },
+    {
+      "label": "test_focal_loss_returns_scalar()",
+      "file_type": "code",
+      "source_file": "tests/test_model.py",
+      "source_location": "L22",
+      "id": "tests_test_model_test_focal_loss_returns_scalar",
+      "community": 3,
+      "norm_label": "test_focal_loss_returns_scalar()"
+    },
+    {
+      "label": "test_focal_loss_gamma0_alpha1_matches_cross_entropy()",
+      "file_type": "code",
+      "source_file": "tests/test_model.py",
+      "source_location": "L30",
+      "id": "tests_test_model_test_focal_loss_gamma0_alpha1_matches_cross_entropy",
+      "community": 3,
+      "norm_label": "test_focal_loss_gamma0_alpha1_matches_cross_entropy()"
+    },
+    {
+      "label": "FocalLoss(gamma=0, alpha=1) must match nn.CrossEntropyLoss on same inputs.",
+      "file_type": "rationale",
+      "source_file": "tests/test_model.py",
+      "source_location": "L31",
+      "id": "tests_test_model_rationale_31",
+      "community": 3,
+      "norm_label": "focalloss(gamma=0, alpha=1) must match nn.crossentropyloss on same inputs."
+    },
+    {
+      "label": "test_predict.py",
+      "file_type": "code",
+      "source_file": "tests/test_predict.py",
+      "source_location": "L1",
+      "id": "tests_test_predict_py",
+      "community": 6,
+      "norm_label": "test_predict.py"
+    },
+    {
+      "label": "tmp_checkpoint()",
+      "file_type": "code",
+      "source_file": "tests/test_predict.py",
+      "source_location": "L14",
+      "id": "tests_test_predict_tmp_checkpoint",
+      "community": 3,
+      "norm_label": "tmp_checkpoint()"
+    },
+    {
+      "label": "test_load_model_returns_module_and_classnames()",
+      "file_type": "code",
+      "source_file": "tests/test_predict.py",
+      "source_location": "L29",
+      "id": "tests_test_predict_test_load_model_returns_module_and_classnames",
+      "community": 6,
+      "norm_label": "test_load_model_returns_module_and_classnames()"
+    },
+    {
+      "label": "test_predict_image_accepts_pil()",
+      "file_type": "code",
+      "source_file": "tests/test_predict.py",
+      "source_location": "L35",
+      "id": "tests_test_predict_test_predict_image_accepts_pil",
+      "community": 6,
+      "norm_label": "test_predict_image_accepts_pil()"
+    },
+    {
+      "label": "test_predict_image_accepts_path()",
+      "file_type": "code",
+      "source_file": "tests/test_predict.py",
+      "source_location": "L44",
+      "id": "tests_test_predict_test_predict_image_accepts_path",
+      "community": 6,
+      "norm_label": "test_predict_image_accepts_path()"
+    },
+    {
+      "label": "test_predict_image_accepts_ndarray()",
+      "file_type": "code",
+      "source_file": "tests/test_predict.py",
+      "source_location": "L52",
+      "id": "tests_test_predict_test_predict_image_accepts_ndarray",
+      "community": 6,
+      "norm_label": "test_predict_image_accepts_ndarray()"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "tests/__init__.py",
+      "source_location": "L1",
+      "id": "tests_init_py",
+      "community": 17,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 4,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Intracranial Hemorrhage Detection",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "hemorrhage_detection_readme_intracranial_hemorrhage_detection",
+      "community": 4,
+      "norm_label": "intracranial hemorrhage detection"
+    },
+    {
+      "label": "Project Structure",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "id": "hemorrhage_detection_readme_project_structure",
+      "community": 4,
+      "norm_label": "project structure"
+    },
+    {
+      "label": "code:block1 (src/        # package: config, data, model, train, evaluate,)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "id": "hemorrhage_detection_readme_codeblock_1",
+      "community": 4,
+      "norm_label": "code:block1 (src/        # package: config, data, model, train, evaluate,)"
+    },
+    {
+      "label": "Setup",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L17",
+      "id": "hemorrhage_detection_readme_setup",
+      "community": 4,
+      "norm_label": "setup"
+    },
+    {
+      "label": "code:bash (python -m venv .venv)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "id": "hemorrhage_detection_readme_codeblock_2",
+      "community": 4,
+      "norm_label": "code:bash (python -m venv .venv)"
+    },
+    {
+      "label": "Train",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L25",
+      "id": "hemorrhage_detection_readme_train",
+      "community": 4,
+      "norm_label": "train"
+    },
+    {
+      "label": "code:bash (python -m src.train --epochs 30 --batch-size 32)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L27",
+      "id": "hemorrhage_detection_readme_codeblock_3",
+      "community": 4,
+      "norm_label": "code:bash (python -m src.train --epochs 30 --batch-size 32)"
+    },
+    {
+      "label": "Evaluate",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L35",
+      "id": "hemorrhage_detection_readme_evaluate",
+      "community": 4,
+      "norm_label": "evaluate"
+    },
+    {
+      "label": "code:bash (python -m src.evaluate --checkpoint checkpoints/best_model.p)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "id": "hemorrhage_detection_readme_codeblock_4",
+      "community": 4,
+      "norm_label": "code:bash (python -m src.evaluate --checkpoint checkpoints/best_model.p)"
+    },
+    {
+      "label": "Inference (Python API)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L43",
+      "id": "hemorrhage_detection_readme_inference_python_api",
+      "community": 4,
+      "norm_label": "inference (python api)"
+    },
+    {
+      "label": "code:python (from src.predict import load_model, predict_image)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "id": "hemorrhage_detection_readme_codeblock_5",
+      "community": 4,
+      "norm_label": "code:python (from src.predict import load_model, predict_image)"
+    },
+    {
+      "label": "Tests",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L55",
+      "id": "hemorrhage_detection_readme_tests",
+      "community": 4,
+      "norm_label": "tests"
+    },
+    {
+      "label": "code:bash (pytest -v)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L57",
+      "id": "hemorrhage_detection_readme_codeblock_6",
+      "community": 4,
+      "norm_label": "code:bash (pytest -v)"
+    },
+    {
+      "label": "Configuration",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L61",
+      "id": "hemorrhage_detection_readme_configuration",
+      "community": 4,
+      "norm_label": "configuration"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L1",
+      "id": "claude_claude_md",
+      "community": 12,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "CLAUDE.md \u2014 HEMORRHAGE DETECTION",
+      "file_type": "document",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L1",
+      "id": "claude_claude_claude_md_hemorrhage_detection",
+      "community": 12,
+      "norm_label": "claude.md \u2014 hemorrhage detection"
+    },
+    {
+      "label": "Plan-mode",
+      "file_type": "document",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L7",
+      "id": "claude_claude_plan_mode",
+      "community": 12,
+      "norm_label": "plan-mode"
+    },
+    {
+      "label": "2026-05-21-hemorrhage-detection-modernization.md",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1",
+      "id": "docs_superpowers_plans_2026_05_21_hemorrhage_detection_modernization_md",
+      "community": 11,
+      "norm_label": "2026-05-21-hemorrhage-detection-modernization.md"
+    },
+    {
+      "label": "Hemorrhage Detection Modernization Implementation Plan",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_hemorrhage_detection_modernization_implementation_plan",
+      "community": 0,
+      "norm_label": "hemorrhage detection modernization implementation plan"
+    },
+    {
+      "label": "File Structure",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L15",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_file_structure",
+      "community": 0,
+      "norm_label": "file structure"
+    },
+    {
+      "label": "Task 1: Archive legacy files and scaffold project",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L45",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_task_1_archive_legacy_files_and_scaffold_project",
+      "community": 8,
+      "norm_label": "task 1: archive legacy files and scaffold project"
+    },
+    {
+      "label": "code:bash (mkdir -p legacy src tests checkpoints outputs)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L59",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_1",
+      "community": 8,
+      "norm_label": "code:bash (mkdir -p legacy src tests checkpoints outputs)"
+    },
+    {
+      "label": "code:bash (git mv Main.py legacy/Main.py)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L65",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_2",
+      "community": 8,
+      "norm_label": "code:bash (git mv main.py legacy/main.py)"
+    },
+    {
+      "label": "code:markdown (# Legacy)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L72",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_3",
+      "community": 8,
+      "norm_label": "code:markdown (# legacy)"
+    },
+    {
+      "label": "code:block4 (torch>=2.1)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L83",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_4",
+      "community": 8,
+      "norm_label": "code:block4 (torch>=2.1)"
+    },
+    {
+      "label": "code:python",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L100",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_5",
+      "community": 8,
+      "norm_label": "code:python"
+    },
+    {
+      "label": "code:python",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L107",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_6",
+      "community": 8,
+      "norm_label": "code:python"
+    },
+    {
+      "label": "code:bash (touch checkpoints/.gitkeep outputs/.gitkeep)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L114",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_7",
+      "community": 8,
+      "norm_label": "code:bash (touch checkpoints/.gitkeep outputs/.gitkeep)"
+    },
+    {
+      "label": "code:bash (git add legacy/ src/ tests/ checkpoints/ outputs/ requiremen)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L120",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_8",
+      "community": 8,
+      "norm_label": "code:bash (git add legacy/ src/ tests/ checkpoints/ outputs/ requiremen)"
+    },
+    {
+      "label": "Task 2: Configuration module",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L127",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_task_2_configuration_module",
+      "community": 0,
+      "norm_label": "task 2: configuration module"
+    },
+    {
+      "label": "code:python (\"\"\"Central configuration for hemorrhage detection.\"\"\")",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L134",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_9",
+      "community": 0,
+      "norm_label": "code:python (\"\"\"central configuration for hemorrhage detection.\"\"\")"
+    },
+    {
+      "label": "code:bash (git add src/config.py)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L182",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_10",
+      "community": 0,
+      "norm_label": "code:bash (git add src/config.py)"
+    },
+    {
+      "label": "Task 3: Data module \u2014 Dataset, transforms, splits",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L189",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_task_3_data_module_dataset_transforms_splits",
+      "community": 0,
+      "norm_label": "task 3: data module \u2014 dataset, transforms, splits"
+    },
+    {
+      "label": "code:python (import pytest)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L197",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_11",
+      "community": 0,
+      "norm_label": "code:python (import pytest)"
+    },
+    {
+      "label": "code:python (\"\"\"Dataset, transforms, splits, dataloaders.\"\"\")",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L244",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_12",
+      "community": 0,
+      "norm_label": "code:python (\"\"\"dataset, transforms, splits, dataloaders.\"\"\")"
+    },
+    {
+      "label": "code:bash (git add src/data.py tests/test_data.py)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L380",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_13",
+      "community": 0,
+      "norm_label": "code:bash (git add src/data.py tests/test_data.py)"
+    },
+    {
+      "label": "Task 4: Model module",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L387",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_task_4_model_module",
+      "community": 0,
+      "norm_label": "task 4: model module"
+    },
+    {
+      "label": "code:python (import torch)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L395",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_14",
+      "community": 0,
+      "norm_label": "code:python (import torch)"
+    },
+    {
+      "label": "code:python (\"\"\"Model factory.\"\"\")",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L422",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_15",
+      "community": 0,
+      "norm_label": "code:python (\"\"\"model factory.\"\"\")"
+    },
+    {
+      "label": "code:bash (git add src/model.py tests/test_model.py)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L450",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_16",
+      "community": 0,
+      "norm_label": "code:bash (git add src/model.py tests/test_model.py)"
+    },
+    {
+      "label": "Task 5: Training module",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L457",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_task_5_training_module",
+      "community": 0,
+      "norm_label": "task 5: training module"
+    },
+    {
+      "label": "code:python (\"\"\"Training entry point: AMP, early stopping, ROC-AUC checkp)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L466",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_17",
+      "community": 0,
+      "norm_label": "code:python (\"\"\"training entry point: amp, early stopping, roc-auc checkp)"
+    },
+    {
+      "label": "code:bash (git add src/train.py)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L637",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_18",
+      "community": 0,
+      "norm_label": "code:bash (git add src/train.py)"
+    },
+    {
+      "label": "Task 6: Evaluation module",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L644",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_task_6_evaluation_module",
+      "community": 0,
+      "norm_label": "task 6: evaluation module"
+    },
+    {
+      "label": "code:python (\"\"\"Evaluation entry point: metrics, confusion matrix, ROC cu)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L651",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_19",
+      "community": 0,
+      "norm_label": "code:python (\"\"\"evaluation entry point: metrics, confusion matrix, roc cu)"
+    },
+    {
+      "label": "code:bash (git add src/evaluate.py)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L793",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_20",
+      "community": 0,
+      "norm_label": "code:bash (git add src/evaluate.py)"
+    },
+    {
+      "label": "Task 7: Prediction (Streamlit-facing API)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L800",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_task_7_prediction_streamlit_facing_api",
+      "community": 0,
+      "norm_label": "task 7: prediction (streamlit-facing api)"
+    },
+    {
+      "label": "code:python (from pathlib import Path)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L808",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_21",
+      "community": 0,
+      "norm_label": "code:python (from pathlib import path)"
+    },
+    {
+      "label": "code:python (\"\"\"Inference API for Streamlit (or any external caller).\"\"\")",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L874",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_22",
+      "community": 0,
+      "norm_label": "code:python (\"\"\"inference api for streamlit (or any external caller).\"\"\")"
+    },
+    {
+      "label": "code:bash (git add src/predict.py tests/test_predict.py)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L978",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_23",
+      "community": 0,
+      "norm_label": "code:bash (git add src/predict.py tests/test_predict.py)"
+    },
+    {
+      "label": "Task 8: End-to-end smoke run",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L985",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_task_8_end_to_end_smoke_run",
+      "community": 0,
+      "norm_label": "task 8: end-to-end smoke run"
+    },
+    {
+      "label": "code:bash (python -c \"from src.predict import load_model, predict_image)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1008",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_24",
+      "community": 0,
+      "norm_label": "code:bash (python -c \"from src.predict import load_model, predict_image)"
+    },
+    {
+      "label": "code:bash (git add outputs/training_log.csv outputs/metrics.json output)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1018",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_25",
+      "community": 0,
+      "norm_label": "code:bash (git add outputs/training_log.csv outputs/metrics.json output)"
+    },
+    {
+      "label": "Task 9: README",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1027",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_task_9_readme",
+      "community": 0,
+      "norm_label": "task 9: readme"
+    },
+    {
+      "label": "code:`markdown (# Intracranial Hemorrhage Detection)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1034",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_26",
+      "community": 0,
+      "norm_label": "code:`markdown (# intracranial hemorrhage detection)"
+    },
+    {
+      "label": "code:block27",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1049",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_27",
+      "community": 0,
+      "norm_label": "code:block27"
+    },
+    {
+      "label": "code:block28",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1057",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_28",
+      "community": 0,
+      "norm_label": "code:block28"
+    },
+    {
+      "label": "code:block29",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1063",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_29",
+      "community": 0,
+      "norm_label": "code:block29"
+    },
+    {
+      "label": "code:block30",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1073",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_30",
+      "community": 0,
+      "norm_label": "code:block30"
+    },
+    {
+      "label": "{\"label\": \"hemorrhage\", \"confidence\": 0.92, \"probs\": {\"normal\": 0.08, \"hemorrhage\": 0.92}}",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1084",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_label_hemorrhage_confidence_0_92_probs_normal_0_08_hemorrhage_0_92",
+      "community": 11,
+      "norm_label": "{\"label\": \"hemorrhage\", \"confidence\": 0.92, \"probs\": {\"normal\": 0.08, \"hemorrhage\": 0.92}}"
+    },
+    {
+      "label": "code:block31",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1085",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_31",
+      "community": 11,
+      "norm_label": "code:block31"
+    },
+    {
+      "label": "code:block32",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1093",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_32",
+      "community": 11,
+      "norm_label": "code:block32"
+    },
+    {
+      "label": "code:bash (git add README.md)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1102",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_33",
+      "community": 11,
+      "norm_label": "code:bash (git add readme.md)"
+    },
+    {
+      "label": "Verification Checklist (end of plan)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1109",
+      "id": "plans_2026_05_21_hemorrhage_detection_modernization_verification_checklist_end_of_plan",
+      "community": 11,
+      "norm_label": "verification checklist (end of plan)"
+    },
+    {
+      "label": "2026-05-21-hemorrhage-detection-modernization-design.md",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L1",
+      "id": "docs_superpowers_specs_2026_05_21_hemorrhage_detection_modernization_design_md",
+      "community": 2,
+      "norm_label": "2026-05-21-hemorrhage-detection-modernization-design.md"
+    },
+    {
+      "label": "Hemorrhage Detection \u2014 Modernization Design",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L1",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_hemorrhage_detection_modernization_design",
+      "community": 2,
+      "norm_label": "hemorrhage detection \u2014 modernization design"
+    },
+    {
+      "label": "Goal",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L6",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_goal",
+      "community": 2,
+      "norm_label": "goal"
+    },
+    {
+      "label": "Non-Goals",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L10",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_non_goals",
+      "community": 2,
+      "norm_label": "non-goals"
+    },
+    {
+      "label": "Dataset",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L17",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_dataset",
+      "community": 2,
+      "norm_label": "dataset"
+    },
+    {
+      "label": "Architecture",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L23",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_architecture",
+      "community": 2,
+      "norm_label": "architecture"
+    },
+    {
+      "label": "Repository Layout",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L29",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_repository_layout",
+      "community": 2,
+      "norm_label": "repository layout"
+    },
+    {
+      "label": "code:block1 (HemorrhageDetection/)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L31",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_codeblock_1",
+      "community": 2,
+      "norm_label": "code:block1 (hemorrhagedetection/)"
+    },
+    {
+      "label": "Components",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L52",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_components",
+      "community": 2,
+      "norm_label": "components"
+    },
+    {
+      "label": "`src/config.py`",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L54",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_src_config_py",
+      "community": 2,
+      "norm_label": "`src/config.py`"
+    },
+    {
+      "label": "`src/data.py`",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L70",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_src_data_py",
+      "community": 2,
+      "norm_label": "`src/data.py`"
+    },
+    {
+      "label": "`src/model.py`",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L77",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_src_model_py",
+      "community": 2,
+      "norm_label": "`src/model.py`"
+    },
+    {
+      "label": "`src/train.py`",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L82",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_src_train_py",
+      "community": 2,
+      "norm_label": "`src/train.py`"
+    },
+    {
+      "label": "`src/evaluate.py`",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L93",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_src_evaluate_py",
+      "community": 2,
+      "norm_label": "`src/evaluate.py`"
+    },
+    {
+      "label": "`src/predict.py` \u2014 Streamlit entry point",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L100",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_src_predict_py_streamlit_entry_point",
+      "community": 2,
+      "norm_label": "`src/predict.py` \u2014 streamlit entry point"
+    },
+    {
+      "label": "code:python (def load_model(checkpoint_path: str, device: str = \"auto\") -)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L102",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_codeblock_2",
+      "community": 2,
+      "norm_label": "code:python (def load_model(checkpoint_path: str, device: str = \"auto\") -)"
+    },
+    {
+      "label": "Data Flow",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L113",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_data_flow",
+      "community": 2,
+      "norm_label": "data flow"
+    },
+    {
+      "label": "Error Handling",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L119",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_error_handling",
+      "community": 2,
+      "norm_label": "error handling"
+    },
+    {
+      "label": "Testing Strategy",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L125",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_testing_strategy",
+      "community": 2,
+      "norm_label": "testing strategy"
+    },
+    {
+      "label": "Legacy Migration",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L131",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_legacy_migration",
+      "community": 2,
+      "norm_label": "legacy migration"
+    },
+    {
+      "label": "Dependencies (`requirements.txt`)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L137",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_dependencies_requirements_txt",
+      "community": 2,
+      "norm_label": "dependencies (`requirements.txt`)"
+    },
+    {
+      "label": "code:block3 (torch>=2.1)",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L139",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_codeblock_3",
+      "community": 2,
+      "norm_label": "code:block3 (torch>=2.1)"
+    },
+    {
+      "label": "Success Criteria",
+      "file_type": "document",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L153",
+      "id": "specs_2026_05_21_hemorrhage_detection_modernization_design_success_criteria",
+      "community": 2,
+      "norm_label": "success criteria"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "legacy/README.md",
+      "source_location": "L1",
+      "id": "legacy_readme_md",
+      "community": 14,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Legacy",
+      "file_type": "document",
+      "source_file": "legacy/README.md",
+      "source_location": "L1",
+      "id": "legacy_readme_legacy",
+      "community": 14,
+      "norm_label": "legacy"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "claude_settings_local_json",
+      "target": "claude_settings_local_permissions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/settings.local.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "claude_settings_local_permissions",
+      "target": "claude_settings_local_permissions_allow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "legacy/Main.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "legacy_main_py",
+      "target": "legacy_main_uploaddataset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "legacy/Main.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "legacy_main_py",
+      "target": "legacy_main_preprocess",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "legacy/Main.py",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "legacy_main_py",
+      "target": "legacy_main_trainyolo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "legacy/Main.py",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "legacy_main_py",
+      "target": "legacy_main_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "legacy/Main.py",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "legacy_main_py",
+      "target": "legacy_main_predict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "legacy/Main.py",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "legacy_main_py",
+      "target": "legacy_main_close",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "legacy/Main.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "legacy_main_trainyolo",
+      "target": "legacy_main_close",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "legacy/Main.py",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "legacy_main_trainyolo",
+      "target": "legacy_main_predict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "legacy/Main.py",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "legacy_main_graph",
+      "target": "legacy_main_close",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "legacy/yolomodel/yolomodel.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "legacy_yolomodel_yolomodel_json",
+      "target": "yolomodel_yolomodel_class_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "legacy/yolomodel/yolomodel.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "legacy_yolomodel_yolomodel_json",
+      "target": "yolomodel_yolomodel_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "legacy/yolomodel/yolomodel.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "legacy_yolomodel_yolomodel_json",
+      "target": "yolomodel_yolomodel_keras_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "legacy/yolomodel/yolomodel.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "legacy_yolomodel_yolomodel_json",
+      "target": "yolomodel_yolomodel_backend",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "legacy/yolomodel/yolomodel.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "yolomodel_yolomodel_config",
+      "target": "yolomodel_yolomodel_config_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "legacy/yolomodel/yolomodel.json",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "yolomodel_yolomodel_config",
+      "target": "yolomodel_yolomodel_config_layers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "outputs_metrics_json",
+      "target": "outputs_metrics_threshold",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "outputs_metrics_json",
+      "target": "outputs_metrics_tta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "outputs_metrics_json",
+      "target": "outputs_metrics_accuracy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "outputs_metrics_json",
+      "target": "outputs_metrics_precision_binary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "outputs_metrics_json",
+      "target": "outputs_metrics_recall_binary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "outputs_metrics_json",
+      "target": "outputs_metrics_f1_binary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "outputs_metrics_json",
+      "target": "outputs_metrics_precision_macro",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "outputs_metrics_json",
+      "target": "outputs_metrics_recall_macro",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "outputs_metrics_json",
+      "target": "outputs_metrics_f1_macro",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "outputs_metrics_json",
+      "target": "outputs_metrics_roc_auc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "outputs_metrics_json",
+      "target": "outputs_metrics_pr_auc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "outputs/metrics.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "outputs_metrics_json",
+      "target": "outputs_metrics_n_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/config.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_config_rationale_1",
+      "target": "src_config_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_data_py",
+      "target": "src_data_hemorrhagedataset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "src_data_py",
+      "target": "src_data_labels",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "src_data_py",
+      "target": "src_data_get_train_transforms",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "src_data_py",
+      "target": "src_data_get_eval_transforms",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.py",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "src_data_py",
+      "target": "src_data_make_weighted_sampler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.py",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "src_data_py",
+      "target": "src_data_get_dataloaders",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_data_rationale_1",
+      "target": "src_data_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_data_hemorrhagedataset",
+      "target": "dataset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "src_data_hemorrhagedataset",
+      "target": "src_data_hemorrhagedataset_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "src_data_hemorrhagedataset",
+      "target": "src_data_hemorrhagedataset_len",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "src_data_hemorrhagedataset",
+      "target": "src_data_hemorrhagedataset_getitem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.py",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "src_data_get_dataloaders",
+      "target": "src_data_hemorrhagedataset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "src_data_rationale_18",
+      "target": "src_data_hemorrhagedataset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "tests_test_data_py",
+      "target": "src_data_hemorrhagedataset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "tests_test_data_test_dataset_lists_both_classes",
+      "target": "src_data_hemorrhagedataset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "tests_test_data_test_dataset_returns_tensor_with_correct_shape",
+      "target": "src_data_hemorrhagedataset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.py",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "src_data_get_dataloaders",
+      "target": "src_data_get_train_transforms",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "tests_test_data_py",
+      "target": "src_data_get_train_transforms",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "tests_test_data_test_train_transforms_output_shape",
+      "target": "src_data_get_train_transforms",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.py",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "src_data_get_dataloaders",
+      "target": "src_data_get_eval_transforms",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/predict.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "src_predict_py",
+      "target": "src_data_get_eval_transforms",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "tests_test_data_py",
+      "target": "src_data_get_eval_transforms",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/predict.py",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "src_predict_predict_image",
+      "target": "src_data_get_eval_transforms",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "tests_test_data_test_dataset_lists_both_classes",
+      "target": "src_data_get_eval_transforms",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "tests_test_data_test_dataset_returns_tensor_with_correct_shape",
+      "target": "src_data_get_eval_transforms",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.py",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "src_data_get_dataloaders",
+      "target": "src_data_make_weighted_sampler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "src_data_rationale_89",
+      "target": "src_data_get_dataloaders",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/evaluate.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "src_evaluate_py",
+      "target": "src_data_get_dataloaders",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/train.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "src_train_py",
+      "target": "src_data_get_dataloaders",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "tests_test_data_py",
+      "target": "src_data_get_dataloaders",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/evaluate.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "src_evaluate_main",
+      "target": "src_data_get_dataloaders",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/train.py",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "src_train_main",
+      "target": "src_data_get_dataloaders",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "tests_test_data_test_get_dataloaders_returns_three_loaders",
+      "target": "src_data_get_dataloaders",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "tests_test_data_test_train_loader_batch_shape",
+      "target": "src_data_get_dataloaders",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/evaluate.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "src_evaluate_py",
+      "target": "src_evaluate_collect_predictions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/evaluate.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "src_evaluate_py",
+      "target": "src_evaluate_best_threshold",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/evaluate.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "src_evaluate_py",
+      "target": "src_evaluate_plot_confusion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/evaluate.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "src_evaluate_py",
+      "target": "src_evaluate_plot_roc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/evaluate.py",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "src_evaluate_py",
+      "target": "src_evaluate_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/evaluate.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_evaluate_rationale_1",
+      "target": "src_evaluate_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/evaluate.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "src_evaluate_py",
+      "target": "src_model_build_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/evaluate.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "src_evaluate_py",
+      "target": "src_predict_tta_softmax",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/evaluate.py",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "src_evaluate_main",
+      "target": "src_evaluate_collect_predictions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/evaluate.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "src_evaluate_rationale_33",
+      "target": "src_evaluate_collect_predictions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/evaluate.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "src_evaluate_collect_predictions",
+      "target": "src_predict_tta_softmax",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/evaluate.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "src_evaluate_main",
+      "target": "src_evaluate_best_threshold",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/evaluate.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "src_evaluate_rationale_49",
+      "target": "src_evaluate_best_threshold",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/evaluate.py",
+      "source_location": "L149",
+      "weight": 1.0,
+      "source": "src_evaluate_main",
+      "target": "src_evaluate_plot_confusion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/evaluate.py",
+      "source_location": "L150",
+      "weight": 1.0,
+      "source": "src_evaluate_main",
+      "target": "src_evaluate_plot_roc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/evaluate.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "src_evaluate_main",
+      "target": "src_model_build_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/model.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_model_py",
+      "target": "src_model_build_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/model.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_model_rationale_15",
+      "target": "src_model_build_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/predict.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_predict_py",
+      "target": "src_model_build_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/train.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "src_train_py",
+      "target": "src_model_build_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_model.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "tests_test_model_py",
+      "target": "src_model_build_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_predict.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "tests_test_predict_py",
+      "target": "src_model_build_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/predict.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "src_predict_load_model",
+      "target": "src_model_build_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/train.py",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "src_train_main",
+      "target": "src_model_build_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_model.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "tests_test_model_test_build_model_returns_module",
+      "target": "src_model_build_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_model.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "tests_test_model_test_model_forward_shape",
+      "target": "src_model_build_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_predict.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "tests_test_predict_tmp_checkpoint",
+      "target": "src_model_build_model"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/predict.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "src_predict_py",
+      "target": "src_predict_tta_softmax",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/predict.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "src_predict_py",
+      "target": "src_predict_resolve_device",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/predict.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "src_predict_py",
+      "target": "src_predict_load_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/predict.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "src_predict_py",
+      "target": "src_predict_to_ndarray",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/predict.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "src_predict_py",
+      "target": "src_predict_predict_image",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/predict.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_predict_rationale_1",
+      "target": "src_predict_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/predict.py",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "src_predict_predict_image",
+      "target": "src_predict_tta_softmax",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/predict.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "src_predict_rationale_21",
+      "target": "src_predict_tta_softmax",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/predict.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "src_predict_load_model",
+      "target": "src_predict_resolve_device",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/predict.py",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "src_predict_predict_image",
+      "target": "src_predict_resolve_device",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/predict.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "src_predict_rationale_46",
+      "target": "src_predict_load_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_predict.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "tests_test_predict_py",
+      "target": "src_predict_load_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_predict.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "tests_test_predict_test_load_model_returns_module_and_classnames",
+      "target": "src_predict_load_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_predict.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "tests_test_predict_test_predict_image_accepts_pil",
+      "target": "src_predict_load_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_predict.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "tests_test_predict_test_predict_image_accepts_path",
+      "target": "src_predict_load_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_predict.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "tests_test_predict_test_predict_image_accepts_ndarray",
+      "target": "src_predict_load_model",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/predict.py",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "src_predict_predict_image",
+      "target": "src_predict_to_ndarray",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/predict.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "source": "src_predict_rationale_87",
+      "target": "src_predict_predict_image",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_predict.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "tests_test_predict_py",
+      "target": "src_predict_predict_image",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_predict.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "tests_test_predict_test_predict_image_accepts_pil",
+      "target": "src_predict_predict_image",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_predict.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "tests_test_predict_test_predict_image_accepts_path",
+      "target": "src_predict_predict_image",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_predict.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "tests_test_predict_test_predict_image_accepts_ndarray",
+      "target": "src_predict_predict_image",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/train.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "src_train_py",
+      "target": "src_train_focalloss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/train.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "src_train_py",
+      "target": "src_train_set_seed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/train.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "src_train_py",
+      "target": "src_train_evaluate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/train.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "src_train_py",
+      "target": "src_train_train_one_epoch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/train.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "src_train_py",
+      "target": "src_train_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/train.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_train_rationale_1",
+      "target": "src_train_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/train.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "src_train_focalloss",
+      "target": "src_train_focalloss_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/train.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "src_train_focalloss",
+      "target": "src_train_focalloss_forward",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/train.py",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "src_train_main",
+      "target": "src_train_focalloss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/train.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "src_train_rationale_24",
+      "target": "src_train_focalloss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_model.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "tests_test_model_py",
+      "target": "src_train_focalloss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_model.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "tests_test_model_test_focal_loss_returns_scalar",
+      "target": "src_train_focalloss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_model.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "tests_test_model_test_focal_loss_gamma0_alpha1_matches_cross_entropy",
+      "target": "src_train_focalloss",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/train.py",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "src_train_main",
+      "target": "src_train_set_seed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/train.py",
+      "source_location": "L139",
+      "weight": 1.0,
+      "source": "src_train_main",
+      "target": "src_train_evaluate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/train.py",
+      "source_location": "L138",
+      "weight": 1.0,
+      "source": "src_train_main",
+      "target": "src_train_train_one_epoch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "tests_test_data_py",
+      "target": "tests_test_data_dataset_readable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "tests_test_data_py",
+      "target": "tests_test_data_data_root",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "tests_test_data_py",
+      "target": "tests_test_data_test_dataset_lists_both_classes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "tests_test_data_py",
+      "target": "tests_test_data_test_dataset_returns_tensor_with_correct_shape",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "tests_test_data_py",
+      "target": "tests_test_data_test_get_dataloaders_returns_three_loaders",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "tests_test_data_py",
+      "target": "tests_test_data_test_train_loader_batch_shape",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "tests_test_data_py",
+      "target": "tests_test_data_test_train_transforms_output_shape",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "tests_test_data_data_root",
+      "target": "tests_test_data_dataset_readable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "tests_test_data_rationale_20",
+      "target": "tests_test_data_dataset_readable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "tests_test_data_rationale_38",
+      "target": "tests_test_data_data_root",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_data.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "tests_test_data_rationale_86",
+      "target": "tests_test_data_test_train_transforms_output_shape",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_model.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "tests_test_model_py",
+      "target": "tests_test_model_test_build_model_returns_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_model.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "tests_test_model_py",
+      "target": "tests_test_model_test_model_forward_shape",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_model.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "tests_test_model_py",
+      "target": "tests_test_model_test_focal_loss_returns_scalar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_model.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "tests_test_model_py",
+      "target": "tests_test_model_test_focal_loss_gamma0_alpha1_matches_cross_entropy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_model.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "tests_test_model_rationale_31",
+      "target": "tests_test_model_test_focal_loss_gamma0_alpha1_matches_cross_entropy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_predict.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "tests_test_predict_py",
+      "target": "tests_test_predict_tmp_checkpoint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_predict.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "tests_test_predict_py",
+      "target": "tests_test_predict_test_load_model_returns_module_and_classnames",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_predict.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "tests_test_predict_py",
+      "target": "tests_test_predict_test_predict_image_accepts_pil",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_predict.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "tests_test_predict_py",
+      "target": "tests_test_predict_test_predict_image_accepts_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_predict.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "tests_test_predict_py",
+      "target": "tests_test_predict_test_predict_image_accepts_ndarray",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme_md",
+      "target": "hemorrhage_detection_readme_intracranial_hemorrhage_detection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "hemorrhage_detection_readme_intracranial_hemorrhage_detection",
+      "target": "hemorrhage_detection_readme_project_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "hemorrhage_detection_readme_intracranial_hemorrhage_detection",
+      "target": "hemorrhage_detection_readme_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "hemorrhage_detection_readme_intracranial_hemorrhage_detection",
+      "target": "hemorrhage_detection_readme_train",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "hemorrhage_detection_readme_intracranial_hemorrhage_detection",
+      "target": "hemorrhage_detection_readme_evaluate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "hemorrhage_detection_readme_intracranial_hemorrhage_detection",
+      "target": "hemorrhage_detection_readme_inference_python_api",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "hemorrhage_detection_readme_intracranial_hemorrhage_detection",
+      "target": "hemorrhage_detection_readme_tests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "hemorrhage_detection_readme_intracranial_hemorrhage_detection",
+      "target": "hemorrhage_detection_readme_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "hemorrhage_detection_readme_project_structure",
+      "target": "hemorrhage_detection_readme_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "hemorrhage_detection_readme_setup",
+      "target": "hemorrhage_detection_readme_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "hemorrhage_detection_readme_train",
+      "target": "hemorrhage_detection_readme_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "hemorrhage_detection_readme_evaluate",
+      "target": "hemorrhage_detection_readme_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "hemorrhage_detection_readme_inference_python_api",
+      "target": "hemorrhage_detection_readme_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "hemorrhage_detection_readme_tests",
+      "target": "hemorrhage_detection_readme_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_claude_claude_md_hemorrhage_detection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/CLAUDE.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "claude_claude_md",
+      "target": "claude_claude_plan_mode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_05_21_hemorrhage_detection_modernization_md",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_hemorrhage_detection_modernization_implementation_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1084",
+      "weight": 1.0,
+      "source": "docs_superpowers_plans_2026_05_21_hemorrhage_detection_modernization_md",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_label_hemorrhage_confidence_0_92_probs_normal_0_08_hemorrhage_0_92",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_hemorrhage_detection_modernization_implementation_plan",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_file_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_file_structure",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_task_1_archive_legacy_files_and_scaffold_project",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L127",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_file_structure",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_task_2_configuration_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L189",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_file_structure",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_task_3_data_module_dataset_transforms_splits",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L387",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_file_structure",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_task_4_model_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L457",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_file_structure",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_task_5_training_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L644",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_file_structure",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_task_6_evaluation_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L800",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_file_structure",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_task_7_prediction_streamlit_facing_api",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L985",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_file_structure",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_task_8_end_to_end_smoke_run",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1027",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_file_structure",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_task_9_readme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_1_archive_legacy_files_and_scaffold_project",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_1_archive_legacy_files_and_scaffold_project",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_1_archive_legacy_files_and_scaffold_project",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_1_archive_legacy_files_and_scaffold_project",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_1_archive_legacy_files_and_scaffold_project",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_1_archive_legacy_files_and_scaffold_project",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_1_archive_legacy_files_and_scaffold_project",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_1_archive_legacy_files_and_scaffold_project",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_8",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L134",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_2_configuration_module",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_2_configuration_module",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L197",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_3_data_module_dataset_transforms_splits",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_11",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L244",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_3_data_module_dataset_transforms_splits",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_12",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L380",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_3_data_module_dataset_transforms_splits",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_13",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L395",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_4_model_module",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_14",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L422",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_4_model_module",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_15",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L450",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_4_model_module",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_16",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L466",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_5_training_module",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_17",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L637",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_5_training_module",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_18",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L651",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_6_evaluation_module",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_19",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L793",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_6_evaluation_module",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_20",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L808",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_7_prediction_streamlit_facing_api",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_21",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L874",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_7_prediction_streamlit_facing_api",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_22",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L978",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_7_prediction_streamlit_facing_api",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_23",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1008",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_8_end_to_end_smoke_run",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_24",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1018",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_8_end_to_end_smoke_run",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_25",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1034",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_9_readme",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_26",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1049",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_9_readme",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_27",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1057",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_9_readme",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_28",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1063",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_9_readme",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_29",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1073",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_task_9_readme",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_30",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1085",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_label_hemorrhage_confidence_0_92_probs_normal_0_08_hemorrhage_0_92",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_31",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1093",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_label_hemorrhage_confidence_0_92_probs_normal_0_08_hemorrhage_0_92",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_32",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1102",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_label_hemorrhage_confidence_0_92_probs_normal_0_08_hemorrhage_0_92",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_codeblock_33",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/plans/2026-05-21-hemorrhage-detection-modernization.md",
+      "source_location": "L1109",
+      "weight": 1.0,
+      "source": "plans_2026_05_21_hemorrhage_detection_modernization_label_hemorrhage_confidence_0_92_probs_normal_0_08_hemorrhage_0_92",
+      "target": "plans_2026_05_21_hemorrhage_detection_modernization_verification_checklist_end_of_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_superpowers_specs_2026_05_21_hemorrhage_detection_modernization_design_md",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_hemorrhage_detection_modernization_design",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "specs_2026_05_21_hemorrhage_detection_modernization_design_hemorrhage_detection_modernization_design",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_goal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "specs_2026_05_21_hemorrhage_detection_modernization_design_hemorrhage_detection_modernization_design",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_non_goals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "specs_2026_05_21_hemorrhage_detection_modernization_design_hemorrhage_detection_modernization_design",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_dataset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "specs_2026_05_21_hemorrhage_detection_modernization_design_hemorrhage_detection_modernization_design",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "specs_2026_05_21_hemorrhage_detection_modernization_design_hemorrhage_detection_modernization_design",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_repository_layout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "specs_2026_05_21_hemorrhage_detection_modernization_design_hemorrhage_detection_modernization_design",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_components",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "specs_2026_05_21_hemorrhage_detection_modernization_design_hemorrhage_detection_modernization_design",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_data_flow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "specs_2026_05_21_hemorrhage_detection_modernization_design_hemorrhage_detection_modernization_design",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_error_handling",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "specs_2026_05_21_hemorrhage_detection_modernization_design_hemorrhage_detection_modernization_design",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_testing_strategy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L131",
+      "weight": 1.0,
+      "source": "specs_2026_05_21_hemorrhage_detection_modernization_design_hemorrhage_detection_modernization_design",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_legacy_migration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "specs_2026_05_21_hemorrhage_detection_modernization_design_hemorrhage_detection_modernization_design",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_dependencies_requirements_txt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "specs_2026_05_21_hemorrhage_detection_modernization_design_hemorrhage_detection_modernization_design",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_success_criteria",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "specs_2026_05_21_hemorrhage_detection_modernization_design_repository_layout",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "specs_2026_05_21_hemorrhage_detection_modernization_design_components",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_src_config_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "specs_2026_05_21_hemorrhage_detection_modernization_design_components",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_src_data_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "specs_2026_05_21_hemorrhage_detection_modernization_design_components",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_src_model_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "specs_2026_05_21_hemorrhage_detection_modernization_design_components",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_src_train_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "specs_2026_05_21_hemorrhage_detection_modernization_design_components",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_src_evaluate_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "specs_2026_05_21_hemorrhage_detection_modernization_design_components",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_src_predict_py_streamlit_entry_point",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "specs_2026_05_21_hemorrhage_detection_modernization_design_src_predict_py_streamlit_entry_point",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/superpowers/specs/2026-05-21-hemorrhage-detection-modernization-design.md",
+      "source_location": "L139",
+      "weight": 1.0,
+      "source": "specs_2026_05_21_hemorrhage_detection_modernization_design_dependencies_requirements_txt",
+      "target": "specs_2026_05_21_hemorrhage_detection_modernization_design_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "legacy/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "legacy_readme_md",
+      "target": "legacy_readme_legacy",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "9d701b879c1431f31df5a8b57339f262eca3649d"
+}

@@ -1,0 +1,14 @@
+{
+  "threshold": 0.49999999999999994,
+  "tta": true,
+  "accuracy": 0.8333333333333334,
+  "precision_binary": 0.75,
+  "recall_binary": 1.0,
+  "f1_binary": 0.8571428571428571,
+  "precision_macro": 0.875,
+  "recall_macro": 0.8333333333333333,
+  "f1_macro": 0.8285714285714285,
+  "roc_auc": 0.9777777777777779,
+  "pr_auc": 0.9815204678362572,
+  "n_test": 30
+}

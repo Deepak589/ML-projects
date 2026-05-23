@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git -c commit.gpgsign=false commit -m \"docs: implementation plan for hemorrhage detection modernization\")",
+      "Bash(cmd /c \"attrib \\\\\"legacy\\\\\\\\yolomodel\\\\\\\\X.txt.npy\\\\\"\")",
+      "Bash(cmd /c \"attrib \\\\\"legacy\\\\\\\\yolomodel\\\\\\\\yolomodel_weights.h5\\\\\"\")",
+      "Bash(python -m pytest tests/test_model.py -v)",
+      "Bash(rm -rf .venv)",
+      "Bash(py -V:3.12 -m venv .venv)",
+      "Bash(.venv/Scripts/python.exe --version)",
+      "Bash(.venv/Scripts/python.exe -m pip install --upgrade pip)",
+      "Bash(.venv/Scripts/python.exe -m pip install -r requirements.txt)",
+      "Bash(.venv/Scripts/python.exe -m src.evaluate --checkpoint checkpoints/best_model.pt)",
+      "Bash(.venv/Scripts/python.exe -m src.evaluate --threshold 0.5)",
+      "Bash(.venv/Scripts/python.exe -m src.evaluate)",
+      "Bash(.venv/Scripts/python.exe -m src.evaluate --tta)",
+      "Bash(git fetch *)"
+    ]
+  }
+}

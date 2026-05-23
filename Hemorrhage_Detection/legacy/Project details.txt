@@ -1,0 +1,13 @@
+
+Software: 3.7 python
+hardware reg: 
+i3 procesor, 4gb ram ,1tb hard desk
+
+
+lib:
+numpy
+open cv
+matplotlib
+sklearn
+tensorflow
+keras

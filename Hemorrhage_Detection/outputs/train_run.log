@@ -1,0 +1,72 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+C:\Users\Deepak\ML-projects\Hemorrhage_Detection\src\train.py:108: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = GradScaler(enabled=use_amp)
+Device: cpu | AMP: False
+train:   0%|          | 0/5 [00:00<?, ?it/s]C:\Users\Deepak\ML-projects\Hemorrhage_Detection\.venv\Lib\site-packages\torch\utils\data\dataloader.py:752: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+C:\Users\Deepak\ML-projects\Hemorrhage_Detection\src\train.py:65: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=use_amp):
+train:  20%|##        | 1/5 [00:04<00:18,  4.70s/it]train:  40%|####      | 2/5 [00:09<00:13,  4.48s/it]train:  60%|######    | 3/5 [00:12<00:08,  4.05s/it]train:  80%|########  | 4/5 [00:16<00:03,  3.83s/it]train: 100%|##########| 5/5 [00:17<00:00,  2.97s/it]                                                    Epoch 001 | train_loss=1.5356 | val_loss=1.0440 | val_acc=0.7333 | val_auc=0.8000 | lr=2.99e-04
+  -> saved best checkpoint (val_auc=0.8000)
+train:   0%|          | 0/5 [00:00<?, ?it/s]C:\Users\Deepak\ML-projects\Hemorrhage_Detection\.venv\Lib\site-packages\torch\utils\data\dataloader.py:752: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+C:\Users\Deepak\ML-projects\Hemorrhage_Detection\src\train.py:65: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=use_amp):
+train:  20%|##        | 1/5 [00:03<00:14,  3.52s/it]train:  40%|####      | 2/5 [00:06<00:10,  3.46s/it]train:  60%|######    | 3/5 [00:10<00:06,  3.44s/it]train:  80%|########  | 4/5 [00:13<00:03,  3.38s/it]train: 100%|##########| 5/5 [00:14<00:00,  2.63s/it]                                                    Epoch 002 | train_loss=0.3277 | val_loss=1.0827 | val_acc=0.8000 | val_auc=0.8756 | lr=2.97e-04
+  -> saved best checkpoint (val_auc=0.8756)
+train:   0%|          | 0/5 [00:00<?, ?it/s]C:\Users\Deepak\ML-projects\Hemorrhage_Detection\.venv\Lib\site-packages\torch\utils\data\dataloader.py:752: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+C:\Users\Deepak\ML-projects\Hemorrhage_Detection\src\train.py:65: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=use_amp):
+train:  20%|##        | 1/5 [00:03<00:13,  3.28s/it]train:  40%|####      | 2/5 [00:06<00:09,  3.18s/it]train:  60%|######    | 3/5 [00:09<00:06,  3.20s/it]train:  80%|########  | 4/5 [00:12<00:03,  3.19s/it]train: 100%|##########| 5/5 [00:14<00:00,  2.58s/it]                                                    Epoch 003 | train_loss=0.1757 | val_loss=0.6312 | val_acc=0.8667 | val_auc=0.9333 | lr=2.93e-04
+  -> saved best checkpoint (val_auc=0.9333)
+train:   0%|          | 0/5 [00:00<?, ?it/s]C:\Users\Deepak\ML-projects\Hemorrhage_Detection\.venv\Lib\site-packages\torch\utils\data\dataloader.py:752: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+C:\Users\Deepak\ML-projects\Hemorrhage_Detection\src\train.py:65: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=use_amp):
+train:  20%|##        | 1/5 [00:03<00:13,  3.38s/it]train:  40%|####      | 2/5 [00:06<00:09,  3.24s/it]train:  60%|######    | 3/5 [00:09<00:06,  3.15s/it]train:  80%|########  | 4/5 [00:12<00:03,  3.11s/it]train: 100%|##########| 5/5 [00:13<00:00,  2.42s/it]                                                    Epoch 004 | train_loss=0.4027 | val_loss=0.5557 | val_acc=0.9000 | val_auc=0.9600 | lr=2.87e-04
+  -> saved best checkpoint (val_auc=0.9600)
+train:   0%|          | 0/5 [00:00<?, ?it/s]C:\Users\Deepak\ML-projects\Hemorrhage_Detection\.venv\Lib\site-packages\torch\utils\data\dataloader.py:752: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+C:\Users\Deepak\ML-projects\Hemorrhage_Detection\src\train.py:65: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=use_amp):
+train:  20%|##        | 1/5 [00:03<00:12,  3.23s/it]train:  40%|####      | 2/5 [00:06<00:09,  3.11s/it]train:  60%|######    | 3/5 [00:09<00:06,  3.07s/it]train:  80%|########  | 4/5 [00:12<00:03,  3.09s/it]train: 100%|##########| 5/5 [00:13<00:00,  2.43s/it]                                                    Epoch 005 | train_loss=0.2479 | val_loss=0.4109 | val_acc=0.9000 | val_auc=0.9644 | lr=2.80e-04
+  -> saved best checkpoint (val_auc=0.9644)
+train:   0%|          | 0/5 [00:00<?, ?it/s]C:\Users\Deepak\ML-projects\Hemorrhage_Detection\.venv\Lib\site-packages\torch\utils\data\dataloader.py:752: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+C:\Users\Deepak\ML-projects\Hemorrhage_Detection\src\train.py:65: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=use_amp):
+train:  20%|##        | 1/5 [00:03<00:13,  3.26s/it]train:  40%|####      | 2/5 [00:06<00:09,  3.18s/it]train:  60%|######    | 3/5 [00:09<00:06,  3.32s/it]train:  80%|########  | 4/5 [00:13<00:03,  3.45s/it]train: 100%|##########| 5/5 [00:15<00:00,  2.77s/it]                                                    Epoch 006 | train_loss=0.0346 | val_loss=0.6077 | val_acc=0.8667 | val_auc=0.9689 | lr=2.71e-04
+  -> saved best checkpoint (val_auc=0.9689)
+train:   0%|          | 0/5 [00:00<?, ?it/s]C:\Users\Deepak\ML-projects\Hemorrhage_Detection\.venv\Lib\site-packages\torch\utils\data\dataloader.py:752: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+C:\Users\Deepak\ML-projects\Hemorrhage_Detection\src\train.py:65: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=use_amp):
+train:  20%|##        | 1/5 [00:03<00:13,  3.32s/it]train:  40%|####      | 2/5 [00:06<00:09,  3.27s/it]train:  60%|######    | 3/5 [00:09<00:06,  3.18s/it]train:  80%|########  | 4/5 [00:12<00:03,  3.21s/it]train: 100%|##########| 5/5 [00:14<00:00,  2.51s/it]                                                    Epoch 007 | train_loss=0.1067 | val_loss=0.9676 | val_acc=0.8667 | val_auc=0.9600 | lr=2.61e-04
+train:   0%|          | 0/5 [00:00<?, ?it/s]C:\Users\Deepak\ML-projects\Hemorrhage_Detection\.venv\Lib\site-packages\torch\utils\data\dataloader.py:752: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+C:\Users\Deepak\ML-projects\Hemorrhage_Detection\src\train.py:65: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=use_amp):
+train:  20%|##        | 1/5 [00:03<00:12,  3.15s/it]train:  40%|####      | 2/5 [00:06<00:09,  3.11s/it]train:  60%|######    | 3/5 [00:09<00:06,  3.09s/it]train:  80%|########  | 4/5 [00:12<00:03,  3.11s/it]train: 100%|##########| 5/5 [00:13<00:00,  2.48s/it]                                                    Epoch 008 | train_loss=0.0832 | val_loss=0.8787 | val_acc=0.8667 | val_auc=0.9511 | lr=2.50e-04
+train:   0%|          | 0/5 [00:00<?, ?it/s]C:\Users\Deepak\ML-projects\Hemorrhage_Detection\.venv\Lib\site-packages\torch\utils\data\dataloader.py:752: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+C:\Users\Deepak\ML-projects\Hemorrhage_Detection\src\train.py:65: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=use_amp):
+train:  20%|##        | 1/5 [00:03<00:15,  3.78s/it]train:  40%|####      | 2/5 [00:07<00:10,  3.62s/it]train:  60%|######    | 3/5 [00:11<00:07,  3.67s/it]train:  80%|########  | 4/5 [00:14<00:03,  3.67s/it]train: 100%|##########| 5/5 [00:16<00:00,  2.90s/it]                                                    Epoch 009 | train_loss=0.1456 | val_loss=0.8202 | val_acc=0.8667 | val_auc=0.9556 | lr=2.38e-04
+train:   0%|          | 0/5 [00:00<?, ?it/s]C:\Users\Deepak\ML-projects\Hemorrhage_Detection\.venv\Lib\site-packages\torch\utils\data\dataloader.py:752: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+C:\Users\Deepak\ML-projects\Hemorrhage_Detection\src\train.py:65: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=use_amp):
+train:  20%|##        | 1/5 [00:03<00:12,  3.18s/it]train:  40%|####      | 2/5 [00:06<00:09,  3.30s/it]train:  60%|######    | 3/5 [00:09<00:06,  3.16s/it]train:  80%|########  | 4/5 [00:12<00:03,  3.21s/it]train: 100%|##########| 5/5 [00:14<00:00,  2.52s/it]                                                    Epoch 010 | train_loss=0.0291 | val_loss=1.1732 | val_acc=0.8667 | val_auc=0.9200 | lr=2.25e-04
+train:   0%|          | 0/5 [00:00<?, ?it/s]C:\Users\Deepak\ML-projects\Hemorrhage_Detection\.venv\Lib\site-packages\torch\utils\data\dataloader.py:752: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+C:\Users\Deepak\ML-projects\Hemorrhage_Detection\src\train.py:65: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=use_amp):
+train:  20%|##        | 1/5 [00:03<00:15,  3.77s/it]train:  40%|####      | 2/5 [00:07<00:10,  3.59s/it]train:  60%|######    | 3/5 [00:10<00:07,  3.52s/it]train:  80%|########  | 4/5 [00:14<00:03,  3.45s/it]train: 100%|##########| 5/5 [00:15<00:00,  2.66s/it]                                                    Epoch 011 | train_loss=0.0497 | val_loss=1.4327 | val_acc=0.9000 | val_auc=0.9289 | lr=2.11e-04
+train:   0%|          | 0/5 [00:00<?, ?it/s]C:\Users\Deepak\ML-projects\Hemorrhage_Detection\.venv\Lib\site-packages\torch\utils\data\dataloader.py:752: UserWarning: 'pin_memory' argument is set as true but no accelerator is found, then device pinned memory won't be used.
+  super().__init__(loader)
+C:\Users\Deepak\ML-projects\Hemorrhage_Detection\src\train.py:65: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=use_amp):
+train:  20%|##        | 1/5 [00:04<00:19,  4.94s/it]train:  40%|####      | 2/5 [00:08<00:12,  4.21s/it]train:  60%|######    | 3/5 [00:12<00:07,  3.97s/it]train:  80%|########  | 4/5 [00:15<00:03,  3.63s/it]train: 100%|##########| 5/5 [00:16<00:00,  2.83s/it]                                                    Epoch 012 | train_loss=0.2129 | val_loss=1.3368 | val_acc=0.9000 | val_auc=0.9289 | lr=1.96e-04
+Early stopping at epoch 12 (patience=7)
+Done. Best val AUC: 0.9689. Checkpoint: C:\Users\Deepak\ML-projects\Hemorrhage_Detection\checkpoints\best_model.pt
