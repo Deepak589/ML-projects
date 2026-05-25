@@ -149,6 +149,18 @@ def main():
     plot_confusion(cm, config.OUTPUT_DIR / "confusion_matrix.png")
     plot_roc(labels, probs, config.OUTPUT_DIR / "roc_curve.png")
 
+    fpr_arr, tpr_arr, _ = roc_curve(labels, probs)
+    roc_data_path = config.OUTPUT_DIR / "roc_data.json"
+    with open(roc_data_path, "w") as f:
+        json.dump(
+            {
+                "fpr": fpr_arr.tolist(),
+                "tpr": tpr_arr.tolist(),
+                "cm": cm.tolist(),
+            },
+            f,
+        )
+
     print(json.dumps(metrics, indent=2))
     print(f"Saved: {metrics_path}")
 
