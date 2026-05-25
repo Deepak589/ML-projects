@@ -15,7 +15,13 @@
       "Bash(.venv/Scripts/python.exe -m src.evaluate --threshold 0.5)",
       "Bash(.venv/Scripts/python.exe -m src.evaluate)",
       "Bash(.venv/Scripts/python.exe -m src.evaluate --tta)",
-      "Bash(git fetch *)"
+      "Bash(git fetch *)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Deepak\\\\ML-projects\\\\Hemorrhage_Detection\" -Recurse -Force)",
+      "Bash(Select-Object -Property FullName, PSIsContainer)",
+      "Bash(Sort-Object FullName)",
+      "Bash(Format-Table -AutoSize -Wrap)",
+      "Bash(ls -la \"C:\\\\\\\\Users\\\\\\\\Deepak\\\\\\\\ML-projects\\\\\\\\Hemorrhage_Detection\\\\\\\\outputs\\\\\\\\\")",
+      "PowerShell(pip install *)"
     ]
   }
 }
